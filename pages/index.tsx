@@ -16,7 +16,7 @@ const Home: NextPage = () => {
             </Head>
             <main className="">
                 <div>
-                <Image objectFit='cover' layout='fill' src='/../public/images/onix3.jpeg' alt=''/>
+                <Image objectFit='cover' layout='fill' src='/images/onix3.jpeg' alt=''/>
                 </div>
             </main>
         </div>
