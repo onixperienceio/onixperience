@@ -15,26 +15,26 @@ const Publications: NextPage = () => {
             <meta name="description" content="ONIX" />
             <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className=" max-h-[75vh] mx-4">
+            <main className="sm:max-h-[75vh] max-h-[60vh] mx-4">
                 <ProjectsHeader/>
                 <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 pb-10 pt-10'>
                     <ProjectPreview
                         title='CATATONIA AND DELIRIUM ASSESSMENT'
                         category='publication'
                         year='2023'
-                        image='yo.jpg'
+                        image='paper.png'
                     />
                     <ProjectPreview
                         title='VEGAN STARTER KIT'
                         category='publication'
                         year='2022'
-                        image='yo.jpg'
+                        image='vegan.png'
                     />
                     <ProjectPreview
                         title='NUTRITION FOR OUR CHILDREN'
                         category='publication'
                         year='2021'
-                        image='yo.jpg'
+                        image='nutrition.png'
                     />
                 </div>
             </main>

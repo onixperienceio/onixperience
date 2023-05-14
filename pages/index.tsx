@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
 import Head from 'next/head'
+import Image from 'next/image'
+
 
 const Home: NextPage = () => {
 
@@ -13,7 +15,9 @@ const Home: NextPage = () => {
             <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className="">
-                <div>ONIX</div>
+                <div>
+                <Image objectFit='cover' layout='fill' src='/../public/images/onix3.jpeg' alt=''/>
+                </div>
             </main>
         </div>
     )

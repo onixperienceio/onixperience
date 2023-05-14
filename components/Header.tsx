@@ -1,45 +1,47 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { ThemeToggle } from "./ThemeToggle"
 
 
 export const Header = () => {
+  const router = useRouter();
 
   return (
-    <div className="py-4 mx-3 px-1 z-20 fixed top-0 left-0 right-0  backdrop-blur-md bg-[color:var(--bg-color)] menu uppercase border-b text-xs">
+    <div className="py-4 mx-3 px-1 z-20 fixed top-0 left-0 right-0  backdrop-blur-md menu uppercase border-b text-xs">
 
       <div className="flex justify-between">
         <div className="flex flex-row w-fit space-x-4">  
-          <Link href="/projects"
+          <Link href="/performances"
           >
-            <a className="filter-none not-italic">
+            <a className={router.pathname == "/performances" ? "active" : "" + router.pathname == "/films" ? "active" : "" + router.pathname == "/zip-cortex" ? "active" : "" + router.pathname == "/publications" ? "active" : ""}>
               projects
             </a>
           </Link>
           
           <Link href="/teaching"
           >
-            <a className="filter-none not-italic">
+            <a className={router.pathname == "/teaching" ? "active" : ""}>
               teaching
             </a>
           </Link>
 
           <Link href="/bio"
           >
-            <a className="filter-none not-italic">
+            <a className={router.pathname == "/bio" ? "active" : ""}>
               bio
             </a>
           </Link>
 
           <Link href="/contact"
           >
-            <a className="filter-none not-italic">
+            <a className={router.pathname == "/contact" ? "active" : ""}>
               contact
             </a>
           </Link>
         </div>
         <p className="onix"><Link href="/"
           >
-            <a className="filter-none not-italic">
+            <a className={router.pathname == "/" ? "active" : ""}>
               ONIX
             </a>
           </Link> <ThemeToggle /></p>

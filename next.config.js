@@ -5,15 +5,15 @@ const nextConfig = {
   images: {
     domains: ['localhost']
   },
-  // async redirects() {
-  //   return [
-  //     {
-  //       source: '/',
-  //       destination: '/un001',
-  //       permanent: true,
-  //     },
-  //   ]
-  // },
+  async redirects() {
+    return [
+      {
+        source: '/projects',
+        destination: '/performances',
+        permanent: true,
+      },
+    ]
+  },
   optimizeFonts: false,
 }
 
