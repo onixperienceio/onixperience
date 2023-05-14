@@ -21,13 +21,13 @@ const ZipCortex: NextPage = () => {
                             <Image objectFit='cover' layout='fill' src="/../public/images/zip-cortex/ensayo2.png" alt='' />
                         </div>
                         
-                        <div className="">                    
+                        <div className=''>                    
                             <p className=''>
                                 Zip-Cortex is a transmedial narrative in progress that includes an Immersive Installation, a Series, a Video Game and a Conference.
                             </p>
                             <br />
                             <p>
-                                In a context of climate collapse, the company Heiex wants to upgrade its neuronal implant "Zip-Cortex" to give the users a happier existence. To this end, Amaya, a Latin American woman who survived the fire on her land, is taken to a brain experiment to recodify her traumatic memory and turn it into a positive experience. But she resists the removal of her trauma. 
+                                In a context of climate collapse, the company Heiex wants to upgrade its neuronal implant Zip-Cortex to give the users a happier existence. To this end, Amaya, a Latin American woman who survived the fire on her land, is taken to a brain experiment to recodify her traumatic memory and turn it into a positive experience. But she resists the removal of her trauma. 
                             </p>
                             <br />
                             <p>
