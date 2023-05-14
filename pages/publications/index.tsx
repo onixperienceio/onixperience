@@ -22,19 +22,19 @@ const Publications: NextPage = () => {
                         title='CATATONIA AND DELIRIUM ASSESSMENT'
                         category='publication'
                         year='2023'
-                        image='Foto1 - portada.jpg'
+                        image='yo.jpg'
                     />
                     <ProjectPreview
                         title='VEGAN STARTER KIT'
                         category='publication'
                         year='2022'
-                        image='hybridpleasures.jpg'
+                        image='yo.jpg'
                     />
                     <ProjectPreview
                         title='NUTRITION FOR OUR CHILDREN'
                         category='publication'
                         year='2021'
-                        image='undesirable.jpg'
+                        image='yo.jpg'
                     />
                 </div>
             </main>

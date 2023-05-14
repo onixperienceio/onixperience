@@ -3,9 +3,11 @@ import { createContext, useContext, useState} from 'react';
 const AppContext = createContext(null);
 
 export function AppWrapper({ children }) {
+   const values = {
+   }
 
    return (
-      <AppContext.Provider >
+      <AppContext.Provider value={values}>
          {children}
       </AppContext.Provider>
    );

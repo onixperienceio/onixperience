@@ -15,7 +15,7 @@ const Bio: NextPage = () => {
             <main className="max-w-[80%] max-h-[80vh] mx-auto ">
                 <div className='relative grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-6 pb-[10%] lg:pb-0'>
                     <div className='relative'>
-                        <Image objectFit='cover' layout='fill' src="/../public/images/yo.jpeg" alt='yo' />
+                        <Image objectFit='cover' layout='fill' src="/../public/images/yo.jpg" alt='yo' />
                     </div>
                     
                     <div className="">                    
