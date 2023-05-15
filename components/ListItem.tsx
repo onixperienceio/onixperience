@@ -1,10 +1,13 @@
 import Image from 'next/image'
 
-export const ListItem  = ({title, year, place}) => {
+export const ListItem  = ({title, category, opening, date}) => {
 
   return (
-    <div className="">
-        {year} | {title}<p className='font-italic'>{place}</p>
+    <div className="cv-grid text-xs mt-4">
+        <p>{title}</p>
+        <p className='font-italic'>{category}</p>
+        <p>{opening}</p>
+        <p>{date}</p>
     </div>
   )
 
