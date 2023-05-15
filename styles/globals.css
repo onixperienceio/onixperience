@@ -80,11 +80,11 @@ a.active {
 }
 
 .projects {
-  @apply pt-10 pb-11 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 
+  @apply pt-16 pb-11 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 
 }
 
 .project {
-  @apply pt-10 pb-11 grid grid-cols-1 gap-6 md:grid-cols-2 lg:pb-0 
+  @apply pt-16 pb-11 grid grid-cols-1 gap-6 md:grid-cols-2 lg:pb-0 
 }
 
 .cv-grid {

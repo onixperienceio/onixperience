@@ -19,13 +19,27 @@ const Bio: NextPage = () => {
                         <Image objectFit='cover' layout='fill' src="/images/yo.jpg" alt='yo' />
                     </div>
                     
-                    <div className="">                    
-                        <p className=''>                           
-                            Victoria Momeño- ONIX- is a Berlin-based transmedia storyteller, performer, educator and doctor. Her works explore the intersections between memory and presence, perception and ritual, and the momentary nature of existence. Informed by a combination of influences ranging from her work as a clinical investigator on cognition & catatonia, as pharmacology & theater teacher, as ayurvedic therapist to collaborations with choreographers, digital artists, climate activists and performers, she pulls themes around the latest scientific evidence bringing science and technology to the artistic agenda to question our relationship with the world and the tendency to a programmed era. She works in multiple mediums as an intermedial artist, performer, director, writer, and filmmaker. Her work has been shown in festivals and exhibitions nationally and internationally. For Onix boundaries are illusions invented to keep all the diversity of thought apart.
+                    <div className="">
+                        <p>
+                            Victoria Momeño- ONIX- is a Berlin-based transmedia storyteller, performer, educator and doctor.
+                        </p>
+                        <br />
+                        <p>
+                            Her works explore the intersections between memory and presence, perception and ritual, and the momentary nature of existence.
+                        </p>
+                        <p>
+                            Informed by a combination of influences ranging from her work as a clinical investigator on cognition & catatonia, as pharmacology & theater teacher, as ayurvedic therapist to collaborations with choreographers, digital artists, climate activists and performers, she pulls themes around the latest scientific evidence bringing science and technology to the artistic agenda to question our relationship with the world and the tendency to a programmed era.
+                        </p>
+                        <p>
+                            She works in multiple mediums as an intermedial artist, performer, director, writer, and filmmaker. Her work has been shown in festivals and exhibitions nationally and internationally.
+                        </p>
+                        <br />
+                        <p>                           
+                            For Onix boundaries are illusions invented to keep all the diversity of thought apart.
                         </p>
                     </div>
                 </div>
-                <div className='pt-6 pb-11'>
+                <div className='pt-10 pb-11'>
                     <ListItem
                         title='TITLE'
                         category='CATEGORY'
