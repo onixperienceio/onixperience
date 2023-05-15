@@ -18,32 +18,26 @@
 body,
 body[data-theme="light"] {
   --main-color: rgb(9, 9, 9);
-  --bg-color: rgb(245, 245, 245);
+  --bg-color: rgba(215,215,215,1);
+  --bg-color2: rgba(231,229,219,1);
   --transparent: rgba(255, 255, 255, 0);
-  --acc-color: #a600ff;
-  --glass-w: rgba(255,255,255,0.2);
-  --glass-b: rgba(0,0,0,0.2);
   --shadow: #444;
-  --link-glow: #f5d9ab;
   --link-hover: #00ff26;
-  --mint-hover: #eee;
 }
 body[data-theme="dark"] {
   --main-color: rgb(245, 245, 245);
-  --bg-color: rgb(9, 9, 9);
+  --bg-color: rgba(11,11,11,1);
+  --bg-color2: rgb(36, 35, 34);
   --transparent: rgba(255, 255, 255, 0);
-  --acc-color: #a600ff;
-  --glass-w: rgba(255,255,255,0.2);
-  --glass-b: rgba(0,0,0,0.2);
   --shadow: #444;
-  --link-glow: rgb(106, 87, 156);
   --link-hover: #00ff26;
-  --mint-hover: rgb(27, 27, 27);
 }
 
 html,
 body {
   background-color: var(--bg-color);
+  background: linear-gradient(28deg, var(--bg-color) 15%, var(--bg-color2) 100%);
+  background-attachment: fixed;
   color: var(--main-color);
   padding: 0;
   margin: 0;
