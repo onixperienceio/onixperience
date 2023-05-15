@@ -25,7 +25,7 @@ const Publications: NextPage = () => {
                             year='2023'
                             image='paper.png'
                         />
-                        <p className='pt-1 text-sm'><a href="https://pubmed.ncbi.nlm.nih.gov/36584250/" target='_blank'>read</a></p>
+                        <p className='pt-1 text-sm'><a href="https://pubmed.ncbi.nlm.nih.gov/36584250/">read</a></p>
                     </div>
                     <div>
                         <ProjectPreview
