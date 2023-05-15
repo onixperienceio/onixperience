@@ -1,25 +1,54 @@
 import type { NextPage } from 'next'
-import Link from 'next/link'
 import Head from 'next/head'
-import Image from 'next/image'
-// import { useAppContext } from "../../context/useAppContext"
-
+import { ProjectPreview } from '../components/ProjectPreview'
+import { ListItem } from '../components/ListItem'
 
 const Teaching: NextPage = () => {
 
     return (
-        <div className='flex flex-col justify-around h-screen min-h-screen un001'>
+        <div className=''>
             <Head>
             <title>ONIX</title>
             <meta name="description" content="ONIX" />
             <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className="">
-                <div className="flex flex-col flex-wrap items-center md:text-base text-sm">
-                    <div className="text-left w-[70%] md:w-[70%] p-3">
-                        <p className=''>
-                            Teaching
-                        </p>
+            <main className="container">
+                <div className='grid grid-cols-1 gap-6 pb-11'>
+                    <ProjectPreview
+                        title='Theatra'
+                        category='workshop'
+                        year='2019-23'
+                        image='theatra.jpeg'
+                    />
+                    <p>
+                        THEATRA workshop proposes a platform for experimentation to lose the human form, to transition into wild bodies and to become mutant scenes that overflow the territorialization of the theater. We use tools from corporal expression and theater addressing desire as a creative propellant to find other surfaces of vulnerability. An experience that does not represent, but is.
+                    </p>
+                    <div className=''>
+                        <ListItem
+                            title='Annual Course in Feliza Cultural Center'
+                            year='2019'
+                            place='Buenos Aires, Argentina'
+                        />
+                        <ListItem
+                            title='Annual Online Course'
+                            year='2020'
+                            place='Buenos Aires, Argentina'
+                        />
+                        <ListItem
+                            title='Quarterly Course in Gelgenheiten e.V'
+                            year='2022'
+                            place='Berlin, Germany'
+                        />
+                        <ListItem
+                            title='Workshop for enterprises for Goxam'
+                            year='2022'
+                            place='Berlin, Germany'
+                        />
+                        <ListItem
+                            title='Workshop for Festival Unboxing Pleasures'
+                            year='2023'
+                            place='Lingen, Germany'
+                        />
                     </div>
                 </div>
             </main>

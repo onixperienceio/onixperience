@@ -6,14 +6,14 @@ import Image from 'next/image'
 const Bio: NextPage = () => {
 
     return (
-        <div className='flex flex-col justify-around h-screen min-h-screen un001'>
+        <div className=''>
             <Head>
             <title>ONIX</title>
             <meta name="description" content="ONIX" />
             <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className="max-w-[80%] max-h-[80vh] mx-auto ">
-                <div className='relative grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-6 pb-[10%] lg:pb-0'>
+            <main className='container'>
+                <div className='grid grid-cols-1 gap-6 pb-11 md:grid-cols-2 grid-rows-2 md:grid-rows-1 lg:pb-0'>
                     <div className='relative'>
                         <Image objectFit='cover' layout='fill' src="/images/yo.jpg" alt='yo' />
                     </div>

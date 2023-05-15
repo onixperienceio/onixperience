@@ -5,10 +5,10 @@ export const ProjectPreview  = ({title, category, year, image}) => {
 
   return (
     <div className="">
-        <p>
+        <p className="font-display">
             {title}
         </p>
-        <div className="flex text-sm">
+        <div className="flex text-sm font-italic">
           <p className='capitalize'>
               {category}
           </p>&nbsp;
@@ -16,8 +16,8 @@ export const ProjectPreview  = ({title, category, year, image}) => {
             {year}
           </p>
         </div>
-        <div className='relative h-[40vh] mt-1'>
-            <Image objectFit='cover' layout='fill' src={`/images/${category}/${image}`} alt=''/>
+        <div className='relative h-[45vh] mt-1'>
+            <Image objectFit='cover' layout='fill' src={`/images/${category}/${image}`} alt={`'`+{title}+`'`}/>
         </div>
     </div>
   )

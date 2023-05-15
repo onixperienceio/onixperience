@@ -9,16 +9,16 @@ import { ProjectPreview } from '../../components/ProjectPreview'
 const Performances: NextPage = () => {
 
     return (
-        <div className='flex flex-col justify-around h-screen min-h-screen un001'>
+        <div className=''>
             <Head>
             <title>ONIX</title>
             <meta name="description" content="ONIX" />
             <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className="sm:max-h-[75vh] max-h-[60vh] mx-4">
+            <main className="projects-container">
                 <ProjectsHeader/>
-                <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 pb-10 pt-10'>
-                    <ProjectPreview
+                <div className='projects'>
+                <ProjectPreview
                         title='TRANCE4MATION 94.2 FTM Radio'
                         category='performance'
                         year='2022-23'
@@ -104,7 +104,7 @@ const Performances: NextPage = () => {
                         image='alacaza.jpg'
                     />
                 </div>
-            </main>
+            </main> 
         </div>
     )
 }

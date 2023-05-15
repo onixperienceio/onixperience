@@ -32,14 +32,14 @@ export const Header = () => {
             </a>
           </Link>
 
-          <Link href="/contact"
+          <Link href="mailto:name@email.com"
           >
-            <a className={router.pathname == "/contact" ? "active" : ""}>
+            <a >
               contact
             </a>
           </Link>
         </div>
-        <p className="onix"><Link href="/"
+        <p className="font-display"><Link href="/"
           >
             <a className={router.pathname == "/" ? "active" : ""}>
               ONIX

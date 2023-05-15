@@ -12,7 +12,7 @@ export const ProjectPage  = ({title, category, year, imageSource}) => {
             {category} {year}
         </p>
         <div className='relative h-[30vh]'>
-            <Image objectFit='cover' layout='fill' src={imageSource} alt='yo'/>
+            <Image objectFit='cover' layout='fill' src={imageSource} alt=''/>
         </div>
     </div>
   )

@@ -8,15 +8,15 @@ import { ProjectPreview } from '../../components/ProjectPreview'
 const Films: NextPage = () => {
 
     return (
-        <div className='flex flex-col justify-around h-screen min-h-screen'>
+        <div className=''>
             <Head>
             <title>ONIX</title>
             <meta name="description" content="ONIX" />
             <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className="sm:max-h-[75vh] max-h-[60vh] mx-4">
+            <main className="projects-container">
                 <ProjectsHeader/>
-                <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 pb-10 pt-10'>
+                <div className='projects'>
                     <ProjectPreview
                         title='Operacion Mexico, un pacto de amor'
                         category='film'
