@@ -25,7 +25,7 @@ body[data-theme="light"] {
   --glass-b: rgba(0,0,0,0.2);
   --shadow: #444;
   --link-glow: #f5d9ab;
-  --link-hover: #ffaa00;
+  --link-hover: #00ff26;
   --mint-hover: #eee;
 }
 body[data-theme="dark"] {
@@ -37,7 +37,7 @@ body[data-theme="dark"] {
   --glass-b: rgba(0,0,0,0.2);
   --shadow: #444;
   --link-glow: rgb(106, 87, 156);
-  --link-hover: #ffaa00;
+  --link-hover: #00ff26;
   --mint-hover: rgb(27, 27, 27);
 }
 
@@ -52,6 +52,8 @@ body {
 
   -ms-overflow-style: none;
   scrollbar-width: none;
+
+  text-align: justify;
 }
 
 body::-webkit-scrollbar {
