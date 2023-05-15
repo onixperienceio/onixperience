@@ -17,7 +17,7 @@ export const ProjectPreview  = ({title, category, year, image}) => {
           </p>
         </div>
         <div className='relative h-[45vh] mt-1'>
-            <Image objectFit='cover' layout='fill' src={`/images/${category}/${image}`} alt={`'`+{title}+`'`}/>
+            <Image objectFit='cover' layout='fill' src={`/images/${category}/${image}`} alt={title}/>
         </div>
     </div>
   )
