@@ -35,7 +35,7 @@ const ZipCortex: NextPage = () => {
                             </p>
                         </div> 
                     </div>
-                    <div className='relative sm:h-[80vh] h-[50vh] w-[100%] md:my-10 pb-11'>
+                    <div className='relative sm:h-[80vh] h-[50vh] w-[100%] md:my-10 pb-20'>
                         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5PAZo7qTS-Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                     </div>
                     {/* <div className='grid grid-cols-1 h-[140%] pb-10'> 

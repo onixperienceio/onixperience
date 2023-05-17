@@ -7,9 +7,9 @@ export const Header = () => {
   const router = useRouter();
 
   return (
-    <div className="py-4 mx-3 px-1 z-20 fixed top-0 left-0 right-0  backdrop-blur-md menu uppercase border-b text-xs">
+    <div className=" z-20 fixed top-0 left-0 right-0  backdrop-blur-md menu uppercase  text-xs">
 
-      <div className="flex justify-between">
+      <div className="flex justify-between mx-3 px-1 py-4 border-b">
         <div className="flex flex-row w-fit space-x-4">  
           <Link href="/performances"
           >
