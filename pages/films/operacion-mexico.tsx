@@ -1,8 +1,7 @@
 import type { NextPage } from 'next'
-import Link from 'next/link'
 import Head from 'next/head'
-import Image from 'next/image'
 import { ProjectPage } from '../../components/ProjectPage'
+import { ImageGallery } from '../../components/ImageGallery'
 
 const Contact: NextPage = () => {
     const images = ['Operacion mexico 3.jpg', 'Operacion Mexico 4.jpg', 'Operacion Mexico 6.jpg', 'Operacion Mexico 7.jpg'];
@@ -27,9 +26,8 @@ const Contact: NextPage = () => {
                 />
                 
                 {images.map((image) => (
-                    <div className='image-gallery' key={image}>
-                        <img src={`/images/film/${image}`} alt=''/>
-                    </div>
+                    <ImageGallery
+                        image={image}/>
                 ))}
 
                
