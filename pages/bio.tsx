@@ -14,9 +14,9 @@ const Bio: NextPage = () => {
             <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className='container'>
-                <div className='grid grid-cols-1 gap-6 pb-11 md:grid-cols-2 grid-rows-2 md:grid-rows-1 lg:pb-0'>
-                    <div className='relative'>
-                        <Image objectFit='cover' layout='fill' src="/images/yo.jpg" alt='yo' />
+                <div className='flex flex-col lg:flex-row gap-6 pb-11 lg:pb-0'>
+                    <div className='relative lg:min-w-[50%]'>
+                        <img src="/images/yo.jpg" alt='' />
                     </div>
                     
                     <div className="">
