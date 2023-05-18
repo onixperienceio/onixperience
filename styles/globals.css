@@ -98,6 +98,10 @@ a.active {
   @apply mb-[4em] flex justify-center
 }
 
+.image-gallery img {
+  @apply max-h-[100vh]
+}
+
 @media (max-width: 800px) {
   .cv-grid {
     display: flex;

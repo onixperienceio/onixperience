@@ -30,7 +30,7 @@ const Contact: NextPage = () => {
                     </div>
                 ))} */}
                 {images.map((image) => (
-                    <div className='image-gallery'>
+                    <div className='image-gallery' key={image}>
                         <img src={`/images/film/${image}`} alt=''/>
                     </div>
                 ))}
