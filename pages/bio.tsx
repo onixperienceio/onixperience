@@ -47,6 +47,7 @@ const Bio: NextPage = () => {
                         date='DATE'
                     />
                     <hr />
+                    <br />
                     <ListItem
                         title='Catatonia and Delirium Assessment'
                         category='Publication'

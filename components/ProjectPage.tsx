@@ -1,16 +1,17 @@
-import Link from "next/link";
-import Image from 'next/image'
+import { ProjectsHeader } from "./ProjectsHeader";
 
-export const ProjectPage  = ({title, category, year, imageCover, description}) => {
+export const ProjectPage  = ({title, category, year, imageCover, description, videoYoutube}) => {
 
   return (
     <div className="">
+      <ProjectsHeader />
+      <div className="project">
         <p className="capitalize font-display">
             {title}
         </p>
         {/* <p className='text-sm capitalize font-italic'>
             {category} {year}
-        </p> */}
+          </p> */}
         <br />
         <div className='mb-[2em]'>
           <img src={`/images/${category}/${imageCover}`} alt=''/>
@@ -18,9 +19,12 @@ export const ProjectPage  = ({title, category, year, imageCover, description}) =
         <div className="">
           {description}
         </div>
-        {/* <div className="relative h-[50vh] mb-[2em]">
-          <Image objectFit='cover' layout='fill' src={`/images/${category}/${imageCover}`} alt=''/>
-        </div> */}
+      </div>
+      {videoYoutube ? 
+        <div className='relative sm:h-[80vh] h-[50vh] w-[100%] mb-20'>
+          <iframe width="100%" height="100%" src={videoYoutube} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        </div> 
+        : ''}
     </div>
   )
 

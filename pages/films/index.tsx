@@ -17,24 +17,30 @@ const Films: NextPage = () => {
             <main className="projects-container">
                 <ProjectsHeader/>
                 <div className='projects'>
-                    <ProjectPreview
-                        title='Operacion Mexico, un pacto de amor'
-                        category='film'
-                        year='2015'
-                        image='Foto1 - portada.jpg'
-                    />
-                    <ProjectPreview
-                        title='Hybrid Pleasures'
-                        category='film'
-                        year='2023'
-                        image='hybridpleasures.jpg'
-                    />
-                    <ProjectPreview
-                        title='The Undesirable'
-                        category='film'
-                        year='2021'
-                        image='undesirable.jpg'
-                    />
+                    <a href="/films/operacion-mexico">
+                        <ProjectPreview
+                            title='Operacion Mexico, un pacto de amor'
+                            category='film'
+                            year='2015'
+                            image='Foto1 - portada.jpg'
+                            />
+                    </a>
+                    <a href="/films/hybrid-pleasures">
+                        <ProjectPreview
+                            title='Hybrid Pleasures'
+                            category='film'
+                            year='2023'
+                            image='hybridpleasures.jpg'
+                            />
+                    </a>
+                    <a href="films/the-undesirable">
+                        <ProjectPreview
+                            title='The Undesirable'
+                            category='film'
+                            year='2021'
+                            image='undesirable.jpg'
+                            />
+                    </a>
                 </div>
             </main>
         </div>

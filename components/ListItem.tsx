@@ -7,7 +7,7 @@ export const ListItem  = ({title, category, opening, date}) => {
         <p>{title}</p>
         <p className='font-italic'>{category}</p>
         <p>{opening}</p>
-        <p>{date}</p>
+        <p className='text-right'>{date}</p>
     </div>
   )
 
