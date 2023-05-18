@@ -19,7 +19,7 @@ const Contact: NextPage = () => {
                     category={`film`}
                     year={`2015`}
                     imageCover={`hybridpleasures.jpg`}
-                    description={['In a cyberpunk laboratory, at night, Blumenatrix uses the scientific machinery to explore his body. In another dimension, dwells Onyxen, a human-arachnid creature that only appears to him at certain occasions. But this encounter is different, they will discover pleasure, desire and fantasies for the first time in their life.', <br />, <div className='pb-[2em]'>(Soon)</div>]}
+                    description={<>In a cyberpunk laboratory, at night, Blumenatrix uses the scientific machinery to explore his body. In another dimension, dwells Onyxen, a human-arachnid creature that only appears to him at certain occasions. But this encounter is different, they will discover pleasure, desire and fantasies for the first time in their life.<br /><div className='pb-[2em]'>(Soon)</div></>}
                 />
 
                 {/* {images.map((image) => (
@@ -29,7 +29,8 @@ const Contact: NextPage = () => {
                 ))} */}
                 {images.map((image) => (
                     <ImageGallery
-                        image={image}/>
+                        image={image}
+                        key={1}/>
                 ))}
 
                
