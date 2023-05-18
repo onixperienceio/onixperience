@@ -93,6 +93,11 @@ a.active {
   justify-content: center;
   text-align: left;
 }
+
+.image-gallery {
+  @apply mb-[4em] flex justify-center
+}
+
 @media (max-width: 800px) {
   .cv-grid {
     display: flex;
