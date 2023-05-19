@@ -14,7 +14,7 @@ export const ProjectPage  = ({title, subtitle, year, opening, category, imageCov
               {subtitle}
           </p>
           <p className="text-sm">
-            {year} | {opening}
+            {year}
           </p>
         </div>
         <br />
@@ -25,11 +25,11 @@ export const ProjectPage  = ({title, subtitle, year, opening, category, imageCov
           {description}
         </div>
       </div>
-      {videoYoutube ? 
+      {/* {videoYoutube ? 
         <div className='relative sm:h-[80vh] h-[50vh] w-[100%] mb-20'>
           <iframe width="100%" height="100%" src={videoYoutube} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </div> 
-        : ''}
+        : ''} */}
     </div>
   )
 

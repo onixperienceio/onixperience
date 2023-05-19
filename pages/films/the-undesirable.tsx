@@ -17,11 +17,13 @@ const Film: NextPage = () => {
             <main className="">
                 <ProjectPage
                     title='the undesirables'
-                    category={`film`}
+                    subtitle=''
                     year={`2021`}
+                    opening=''
+                    category={`film`}
                     imageCover={`/${carpeta}/portada.jpg`}
                     description={<>
-                        How deep is what you desire? How deep is what you long for? To see the woman of your dreams dancing the 60s swing with a knife in her hand, maybe that's paradise
+                        How deep is what you desire? How deep is what you long for? To see the woman of your dreams dancing the 60s swing with a knife in her hand, maybe that&apos;s paradise
                     </>}
                     videoYoutube='https://www.youtube.com/embed/6K9hJZbhvd0'
                 />

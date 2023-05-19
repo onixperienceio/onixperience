@@ -5,7 +5,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
-    const carpeta = 'reddish-foam'
+    const carpeta = 'transmutar'
 
     return (
         <div className='projects-container'>
@@ -16,15 +16,14 @@ const Performance: NextPage = () => {
             </Head>
             <main className="">
                 <ProjectPage
-                    title='hybrid pleasures'
-                    subtitle = 'inmersive performance'
-                    year={`2022`}
+                    title='transmutate'
+                    subtitle = 'theater'
+                    year={`2019`}
                     opening={'Reiche ProjektHaus/ Berlin, Germany'}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
-                        Jörg, a German, finds himself in his private bdsm session with Julieta, his Latin dominatrix. But this is not a session like the others, Jörg proposes to try something different, to venture into a cursed history that haunts him in his grandfather's past. Forbidden fantasies, buried secrets and unspeakable confessions function as the key to a profound reflection on one's own shadows. Julieta and Jörg will get closer until there is no more place to hide and there, they will discover how much there is that really unites them. A pain, a violence that is lodged in both bodies and that exists beyond all borders.
-
+                       Trasmutate invites us to another time where categories and genders do not exist. The play is a collective but deeply intimate journey, where the characters go through vital experiences and questions and put into action other ways of bonding. By staging personal memories and functioning as a reflection of others, it asks ourselves: what is a sense liberated from meaning? Is it possible to compose our bodies in more bodies and intensify their powers to the limit without breaking or destroying themselves?
                     </>}
                     videoYoutube='https://www.youtube.com/embed/Is81XHmEG3M'
                 />

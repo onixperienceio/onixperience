@@ -5,7 +5,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
-    const carpeta = 'reddish-foam'
+    const carpeta = 'not-forget'
 
     return (
         <div className='projects-container'>
@@ -16,14 +16,14 @@ const Performance: NextPage = () => {
             </Head>
             <main className="">
                 <ProjectPage
-                    title='hybrid pleasures'
+                    title='IF I COULD JUST NOT FORGET'
                     subtitle = 'inmersive performance'
-                    year={`2022`}
+                    year={`2018-19`}
                     opening={'Reiche ProjektHaus/ Berlin, Germany'}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
-                        Jörg, a German, finds himself in his private bdsm session with Julieta, his Latin dominatrix. But this is not a session like the others, Jörg proposes to try something different, to venture into a cursed history that haunts him in his grandfather's past. Forbidden fantasies, buried secrets and unspeakable confessions function as the key to a profound reflection on one's own shadows. Julieta and Jörg will get closer until there is no more place to hide and there, they will discover how much there is that really unites them. A pain, a violence that is lodged in both bodies and that exists beyond all borders.
+                        Beatriz meets Yuna, or Yuna meets Beatriz. Yuna has a mental breakdown after the death of her smaller brother and Beatriz is there for her, but her family won&apos;t accept her. Crush, love and a cataract of orgasms. If they took out your soul and put it back again, would that be love?
 
                     </>}
                     videoYoutube='https://www.youtube.com/embed/Is81XHmEG3M'

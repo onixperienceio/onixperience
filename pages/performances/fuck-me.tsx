@@ -5,7 +5,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
-    const carpeta = 'reddish-foam'
+    const carpeta = 'fuckme'
 
     return (
         <div className='projects-container'>
@@ -16,14 +16,15 @@ const Performance: NextPage = () => {
             </Head>
             <main className="">
                 <ProjectPage
-                    title='hybrid pleasures'
-                    subtitle = 'inmersive performance'
-                    year={`2022`}
+                    title='fuck me'
+                    subtitle = 'theater'
+                    year={`2020`}
                     opening={'Reiche ProjektHaus/ Berlin, Germany'}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
-                        Jörg, a German, finds himself in his private bdsm session with Julieta, his Latin dominatrix. But this is not a session like the others, Jörg proposes to try something different, to venture into a cursed history that haunts him in his grandfather's past. Forbidden fantasies, buried secrets and unspeakable confessions function as the key to a profound reflection on one's own shadows. Julieta and Jörg will get closer until there is no more place to hide and there, they will discover how much there is that really unites them. A pain, a violence that is lodged in both bodies and that exists beyond all borders.
+                       &#34;I always imagined myself at the center of the scene, as a heroine, taking revenge for everything. But my body wasn&apos;t enough for such a battle. Today I leave my place to the interpreters. I&apos;m going to watch how they lend their bodies to my narcissistic cause&#34;. Marina Otero intends to build an endless work about her life. FUCK ME is the third part of a series that explores the passage of time and the marks that a body holds.
+
 
                     </>}
                     videoYoutube='https://www.youtube.com/embed/Is81XHmEG3M'

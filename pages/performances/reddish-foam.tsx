@@ -16,14 +16,14 @@ const Performance: NextPage = () => {
             </Head>
             <main className="">
                 <ProjectPage
-                    title='hybrid pleasures'
-                    subtitle = 'inmersive performance'
-                    year={`2022`}
+                    title='reddish foam'
+                    subtitle = 'theater'
+                    year={`2021`}
                     opening={'Reiche ProjektHaus/ Berlin, Germany'}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
-                        Jörg, a German, finds himself in his private bdsm session with Julieta, his Latin dominatrix. But this is not a session like the others, Jörg proposes to try something different, to venture into a cursed history that haunts him in his grandfather's past. Forbidden fantasies, buried secrets and unspeakable confessions function as the key to a profound reflection on one's own shadows. Julieta and Jörg will get closer until there is no more place to hide and there, they will discover how much there is that really unites them. A pain, a violence that is lodged in both bodies and that exists beyond all borders.
+                        Jörg, a German, finds himself in his private bdsm session with Julieta, his Latin dominatrix. But this is not a session like the others, Jörg proposes to try something different, to venture into a cursed history that haunts him in his grandfather&apos;s past. Forbidden fantasies, buried secrets and unspeakable confessions function as the key to a profound reflection on one&apos;s own shadows. Julieta and Jörg will get closer until there is no more place to hide and there, they will discover how much there is that really unites them. A pain, a violence that is lodged in both bodies and that exists beyond all borders.
 
                     </>}
                     videoYoutube='https://www.youtube.com/embed/Is81XHmEG3M'

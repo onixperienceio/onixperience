@@ -5,7 +5,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
-    const carpeta = 'reddish-foam'
+    const carpeta = 'la-caza'
 
     return (
         <div className='projects-container'>
@@ -16,14 +16,16 @@ const Performance: NextPage = () => {
             </Head>
             <main className="">
                 <ProjectPage
-                    title='hybrid pleasures'
-                    subtitle = 'inmersive performance'
-                    year={`2022`}
+                    title='ON THE HUNT OF TORKJUAH'
+                    subtitle = 'mime'
+                    year={`2017`}
                     opening={'Reiche ProjektHaus/ Berlin, Germany'}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
-                        Jörg, a German, finds himself in his private bdsm session with Julieta, his Latin dominatrix. But this is not a session like the others, Jörg proposes to try something different, to venture into a cursed history that haunts him in his grandfather's past. Forbidden fantasies, buried secrets and unspeakable confessions function as the key to a profound reflection on one's own shadows. Julieta and Jörg will get closer until there is no more place to hide and there, they will discover how much there is that really unites them. A pain, a violence that is lodged in both bodies and that exists beyond all borders.
+                        Tokjuah is the civilizing hero of the Wichí, a native community of South America.
+A multifaceted and hilarious hero-antihero: Tokjuah is the unbridled protagonist of adventures, misfortunes, triumphs, defeats, mistakes, geniuses, loyalties, cheating; he can be the savior of humanity with one of his actions, or cause great disasters just by whim or negligence. Although he is an anthropomorphic entity, we often see him interact with animals and even become one of them or try to imitate them. &#34;A non-Western way of thinking, with its own patterns and logics&#34;.
+
 
                     </>}
                     videoYoutube='https://www.youtube.com/embed/Is81XHmEG3M'

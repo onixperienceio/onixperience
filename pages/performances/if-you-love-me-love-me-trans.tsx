@@ -5,7 +5,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
-    const carpeta = 'operacion-mexico'
+    const carpeta = 'loveme-trans'
 
     return (
         <div className='projects-container'>
@@ -16,18 +16,20 @@ const Performance: NextPage = () => {
             </Head>
             <main className="">
                 <ProjectPage
-                    title='operacion mexico'
+                    title='if you love me love me trans'
+                    subtitle = 'theater'
+                    year={`2018-19`}
+                    opening={'Reiche ProjektHaus/ Berlin, Germany'}
                     category={`performance`}
-                    year={`2015`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
-                        In a shocked Argentina, in the summer of 1978, the militants of an insurgent organization Edgar Tulio Valenzuela (Tucho) and Raquel Negro (María) with an advanced pregnancy and a young son, are kidnapped by the Armed Forces and taken to the suburbs of Rosario. A high commander of the Argentine Army makes Tucho a proposal that if he complies, he will betray the ideals to which he has dedicated all his life and if he rejects it, he will lose his wife, his son and his new child. María and Tucho make a pact.
-                        <div className='font-bold font-italic mt-[1em]'>
-                            2016 Best Film Award in the Rellumes Section, 53rd Edition of Gijon&apos;s International Film Festival, Spain.
-                        </div>
-                        <br /><br />
+                        Is born from improvisations based on the personal stories of each of the members of the company. As a tragicomedy, it tells the story of Brenda and Raul, a young man who despite having received an orthodox education, falls in love with a trans girl and must fight against the prejudices and insecurities of Brenda, who doesn&apos;t want to get hurt and therefore hesitates all the time whether to accept the proposal made by her boyfriend to live together or not.
+Joseph, Brenda&apos;s childhood friend, encourages her to fly and tells her to take a chance on his love and Camila, her best friend, forces her to come back to earth with the speech of the past, present and future.
+The play is an invitation to reflect on gender roles in our society and the prejudices we may have, born from the fear that comes from trying to be oneself in a society that punishes what is different.
+
+
                     </>}
-                    videoYoutube='https://www.youtube.com/embed/6K9hJZbhvd0'
+                    videoYoutube='https://www.youtube.com/embed/Is81XHmEG3M'
                 />
                 
                 {images.map((image) => (

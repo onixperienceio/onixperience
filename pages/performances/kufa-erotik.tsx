@@ -16,14 +16,14 @@ const Performance: NextPage = () => {
             </Head>
             <main className="">
                 <ProjectPage
-                    title='hybrid pleasures'
+                    title='kufa erotik'
                     subtitle = 'inmersive performance'
-                    year={`2022`}
+                    year={`2021`}
                     opening={'Reiche ProjektHaus/ Berlin, Germany'}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
-                        An invitation to have dinner and watch short post-porn films. But the dinner doesn't happen normally, suddenly three people start practicing BDSM and two of them will have to lend their bodies as a banquet. The dom serves vegan sushi. The audience will eat only when he rings the bell. An erotic game, between submission, rebellion and deepness.
+                        An invitation to have dinner and watch short post-porn films. But the dinner doesn&apos;t happen normally, suddenly three people start practicing BDSM and two of them will have to lend their bodies as a banquet. The dom serves vegan sushi. The audience will eat only when he rings the bell. An erotic game, between submission, rebellion and deepness.
                     </>}
                     videoYoutube='https://www.youtube.com/embed/Is81XHmEG3M'
                 />

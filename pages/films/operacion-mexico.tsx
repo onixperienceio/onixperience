@@ -17,8 +17,10 @@ const Film: NextPage = () => {
             <main className="">
                 <ProjectPage
                     title='operacion mexico'
-                    category={`film`}
+                    subtitle=''
                     year={`2015`}
+                    opening=''
+                    category={`film`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
                         In a shocked Argentina, in the summer of 1978, the militants of an insurgent organization Edgar Tulio Valenzuela (Tucho) and Raquel Negro (María) with an advanced pregnancy and a young son, are kidnapped by the Armed Forces and taken to the suburbs of Rosario. A high commander of the Argentine Army makes Tucho a proposal that if he complies, he will betray the ideals to which he has dedicated all his life and if he rejects it, he will lose his wife, his son and his new child. María and Tucho make a pact.

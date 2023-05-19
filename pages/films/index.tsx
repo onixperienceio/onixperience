@@ -17,30 +17,30 @@ const Films: NextPage = () => {
             <main className="projects-container">
                 <ProjectsHeader/>
                 <div className='projects'>
-                    <a href="/films/operacion-mexico">
+                    <Link href="/films/operacion-mexico"><a >
                         <ProjectPreview
                             title='Operacion Mexico, un pacto de amor'
                             category='film'
                             year='2015'
                             image='operacion-mexico/portada.jpg'
                             />
-                    </a>
-                    <a href="/films/hybrid-pleasures">
+                    </a></Link>
+                    <Link href="/films/hybrid-pleasures"><a >
                         <ProjectPreview
                             title='Hybrid Pleasures'
                             category='film'
                             year='2023'
                             image='hybrid-pleasures/portada.jpg'
                             />
-                    </a>
-                    <a href="films/the-undesirable">
+                    </a></Link>
+                    <Link href="films/the-undesirable"><a >
                         <ProjectPreview
                             title='The Undesirable'
                             category='film'
                             year='2021'
                             image='indeseables/portada.jpg'
                             />
-                    </a>
+                    </a></Link>
                 </div>
             </main>
         </div>

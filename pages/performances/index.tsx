@@ -18,47 +18,47 @@ const Performances: NextPage = () => {
             <main className="projects-container">
                 <ProjectsHeader/>
                 <div className='projects'>
-                    <a href="performances/trance4mation">
+                    <Link href="performances/trance4mation"><a >
                         <ProjectPreview
                             title='TRANCE4MATION 94.2 FTM Radio'
                             category='performance'
                             year='2022-23'
                             image='trance4mation/portada.jpeg'
                         />
-                    </a>
-                    <a href="performances/hybrid-pleasures">
+                    </a></Link>
+                    <Link href="performances/hybrid-pleasures"><a >
                         <ProjectPreview
                             title='HYBRID PLEASURES'
                             category='performance'
                             year='2022'
                             image='hybrid-pleasures/portada.jpg'
                         />
-                    </a>
-                    <a href="performances/kufa-erotik">
+                    </a></Link>
+                    <Link href="performances/kufa-erotik"><a >
                         <ProjectPreview
                             title='KUFA EROTIK'
                             category='performance'
                             year='2021'
                             image='kufa-erotik/portada.jpg'
                             />
-                    </a>
-                    <a href="performances/reddish-foam">
+                    </a></Link>
+                    <Link href="performances/reddish-foam"><a >
                         <ProjectPreview
                             title='REDDISH FOAM'
                             category='performance'
                             year='2021'
                             image='reddish-foam/portada.jpg'
                         />
-                    </a>
-                    <a href="performances/transmutate">
+                    </a></Link>
+                    <Link href="performances/transmutate"><a>
                         <ProjectPreview
                             title='TRANSMUTATE'
                             category='performance'
                             year='2019'
                             image='transmutar/portada.jpg'
                         />
-                    </a>
-                    <a href="performances/if-i-could-just-not-forget">
+                    </a></Link>
+                    <Link href="performances/if-i-could-just-not-forget"><a>
                         <ProjectPreview
                             title='IF I COULD JUST 
                             NOT FORGET'
@@ -66,71 +66,71 @@ const Performances: NextPage = () => {
                             year='2018-19'
                             image='not-forget/portada.jpg'
                         />  
-                    </a>
-                    <a href="performances/if-you-love-me-love-me-trans">
+                    </a></Link>
+                    <Link href="performances/if-you-love-me-love-me-trans"><a>
                         <ProjectPreview
                             title='IF YOU LOVE ME LOVE ME TRANS'
                             category='performance'
                             year='2018-19'
                             image='loveme-trans/portada.jpg'
                         />
-                    </a>
-                    <a href="performances/les-quienes">
+                    </a></Link>
+                    <Link href="performances/les-quienes"><a>
                         <ProjectPreview
                             title='LES QUIENES'
                             category='performance'
                             year='2019'
                             image='les-quienes/portada.jpg'
                         />
-                    </a>
-                    <a href="performances/sistere">
+                    </a></Link>
+                    <Link href="performances/sistere"><a>
                         <ProjectPreview
                             title='SISTERE'
                             category='performance'
                             year='2020'
                             image='sistere/portada.jpg'
                         />
-                    </a>
-                    <a href="performances/oral-transmission">
+                    </a></Link>
+                    <Link href="performances/oral-transmission"><a>
                         <ProjectPreview
                             title='ORAL TRANSMISSION'
                             category='performance'
                             year='2020'
                             image='transmision-oral/portada.png'
                         />
-                    </a>
-                    <a href="performances/how-can-i-desire-this-so-hard">
+                    </a></Link>
+                    <Link href="performances/how-can-i-desire-this-so-hard"><a>
                         <ProjectPreview
                             title='HOW CAN I DESIRE THIS SO HARD'
                             category='performance'
                             year='2019'
                             image='desire-this/portada.jpg'
                         />
-                    </a>
-                    <a href="performances/optical-instrument">
+                    </a></Link>
+                    <Link href="performances/optical-instrument"><a>
                         <ProjectPreview
                             title='OPTICAL INSTRUMENT'
                             category='performance'
                             year='2019'
                             image='io/portada.jpeg'
                         />
-                    </a>
-                    <a href="performances/fuck-me">
+                    </a></Link>
+                    <Link href="performances/fuck-me"><a>
                         <ProjectPreview
                             title='FUCK ME'
                             category='performance'
                             year='2020'
                             image='fuckme/portada.jpeg'
                         />
-                    </a>
-                    <a href="performances/on-the-hunt-of-torkjuah">
+                    </a></Link>
+                    <Link href="performances/on-the-hunt-of-torkjuah"><a>
                         <ProjectPreview
                             title='ON THE HUNT OF TORKJUAH'
                             category='performance'
                             year='2017'
                             image='la-caza/portada.jpg'
                         />
-                    </a>
+                    </a></Link>
                 </div>
             </main> 
         </div>
