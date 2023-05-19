@@ -21,7 +21,7 @@ const Performance: NextPage = () => {
                     year={`2020`}
                     opening={'Reiche ProjektHaus/ Berlin, Germany'}
                     category={`performance`}
-                    imageCover={`${carpeta}/portada.jpg`}
+                    imageCover={`${carpeta}/portada.png`}
                     description={<>
                         Oral transmission explores the powerful, fascinating and dangerous aspects of kissing in public with more than 50 performers kissing at the same time. The street as a place to build new social imaginaries. There, every kiss is a political act.
 

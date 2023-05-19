@@ -80,7 +80,7 @@ const Performances: NextPage = () => {
                             title='LES QUIENES'
                             category='performance'
                             year='2019'
-                            image='les-quienes/portada.jpg'
+                            image='les-quienes/portada.JPG'
                         />
                     </a></Link>
                     <Link href="performances/sistere"><a>

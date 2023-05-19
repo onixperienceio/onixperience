@@ -21,7 +21,7 @@ const Performance: NextPage = () => {
                     year={`2019`}
                     opening={'Reiche ProjektHaus/ Berlin, Germany'}
                     category={`performance`}
-                    imageCover={`${carpeta}/portada.jpg`}
+                    imageCover={`${carpeta}/portada.JPG`}
                     description={<>
                         Happy, trans and in love, Liuna, an Indian woman, and Mba&apos;ehory, a Paraguayan drug dealer, love each other. Together they live in their love nest in the villa. Their world is transformed when a “normal” family goes to live in the villa.
 

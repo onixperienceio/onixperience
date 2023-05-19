@@ -21,7 +21,7 @@ const Performance: NextPage = () => {
                     year={`2020`}
                     opening={'Reiche ProjektHaus/ Berlin, Germany'}
                     category={`performance`}
-                    imageCover={`${carpeta}/portada.jpg`}
+                    imageCover={`${carpeta}/portada.jpeg`}
                     description={<>
                        &#34;I always imagined myself at the center of the scene, as a heroine, taking revenge for everything. But my body wasn&apos;t enough for such a battle. Today I leave my place to the interpreters. I&apos;m going to watch how they lend their bodies to my narcissistic cause&#34;. Marina Otero intends to build an endless work about her life. FUCK ME is the third part of a series that explores the passage of time and the marks that a body holds.
 
