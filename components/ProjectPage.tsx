@@ -18,19 +18,19 @@ export const ProjectPage  = ({title, subtitle, year, opening, category, imageCov
           </p>
         </div>
         <br />
-        <div className='mb-[2em]'>
-          <img loading='lazy' src={`/images/${category}/${imageCover}`} alt=''/>
+        <div className='mb-[2em] flex justify-center'>
+          <img loading='lazy' className="max-h-[100vh]" src={`/images/${category}/${imageCover}`} alt=''/>
         </div>
         <div className="">
           {description}
+          {credits ?
+            <div className="mt-[2em] text-sm">
+              <p>CREDITS</p>
+              {credits}
+            </div>
+            : null
+          }
         </div>
-        {credits ?
-          <div className="mt-[2em] text-sm">
-            <p>CREDITS</p>
-            {credits}
-          </div>
-          : null
-        }
       </div>
       {videoYoutube ? 
         <div className='relative sm:h-[80vh] h-[50vh] w-[100%] mb-20'>
