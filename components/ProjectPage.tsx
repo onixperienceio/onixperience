@@ -18,7 +18,7 @@ export const ProjectPage  = ({title, subtitle, year, opening, category, imageCov
           </p>
         </div>
         <br />
-        <div className='mb-[2em] flex justify-center'>
+        <div className='mb-[2em]'>
           <img loading='lazy' className="max-h-[100vh]" src={`/images/${category}/${imageCover}`} alt=''/>
         </div>
         <div className="">
