@@ -74,7 +74,7 @@ a.active {
 }
 
 .projects-container {
-  @apply sm:mt-20 mt-40 sm:pt-5 mx-6
+  @apply sm:mt-20 mt-40 sm:pt-5 mx-6 pb-10
 }
 
 .projects {

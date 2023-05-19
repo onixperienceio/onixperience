@@ -1,17 +1,22 @@
 import { ProjectsHeader } from "./ProjectsHeader";
 
-export const ProjectPage  = ({title, category, year, imageCover, description, videoYoutube}) => {
+export const ProjectPage  = ({title, subtitle, year, opening, category, imageCover, description, videoYoutube}) => {
 
   return (
     <div className="">
       <ProjectsHeader />
       <div className="project">
-        <p className="capitalize font-display">
-            {title}
-        </p>
-        {/* <p className='text-sm capitalize font-italic'>
-            {category} {year}
-          </p> */}
+        <div className="capitalize">
+          <p className="font-display text-xl mb-[0.25em]">
+              {title}
+          </p>
+          <p className='text-sm font-italic'>
+              {subtitle}
+          </p>
+          <p className="text-sm">
+            {year} | {opening}
+          </p>
+        </div>
         <br />
         <div className='mb-[2em]'>
           <img src={`/images/${category}/${imageCover}`} alt=''/>

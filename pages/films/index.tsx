@@ -22,7 +22,7 @@ const Films: NextPage = () => {
                             title='Operacion Mexico, un pacto de amor'
                             category='film'
                             year='2015'
-                            image='Foto1 - portada.jpg'
+                            image='operacion-mexico/portada.jpg'
                             />
                     </a>
                     <a href="/films/hybrid-pleasures">
@@ -30,7 +30,7 @@ const Films: NextPage = () => {
                             title='Hybrid Pleasures'
                             category='film'
                             year='2023'
-                            image='hybridpleasures.jpg'
+                            image='hybrid-pleasures/portada.jpg'
                             />
                     </a>
                     <a href="films/the-undesirable">
@@ -38,7 +38,7 @@ const Films: NextPage = () => {
                             title='The Undesirable'
                             category='film'
                             year='2021'
-                            image='undesirable.jpg'
+                            image='indeseables/portada.jpg'
                             />
                     </a>
                 </div>

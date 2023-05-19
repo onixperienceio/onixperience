@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
 
-const Film: NextPage = () => {
+const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
     const carpeta = 'operacion-mexico'
 
@@ -17,7 +17,7 @@ const Film: NextPage = () => {
             <main className="">
                 <ProjectPage
                     title='operacion mexico'
-                    category={`film`}
+                    category={`performance`}
                     year={`2015`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
@@ -42,4 +42,4 @@ const Film: NextPage = () => {
     )
 }
 
-export default Film 
+export default Performance 

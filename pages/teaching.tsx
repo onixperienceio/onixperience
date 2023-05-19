@@ -13,21 +13,21 @@ const Teaching: NextPage = () => {
             <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className="container">
-                <div className='grid grid-cols-1 gap-6 pb-11'>
+                <div className='pb-11'>
                     <ProjectPreview
                         title='Theatra'
                         category='workshop'
                         year='2019-23'
                         image='theatra.jpeg'
                     />
-                    <p>
+                    <p className='my-[2em]'>
                         THEATRA workshop proposes a platform for experimentation to lose the human form, to transition into wild bodies and to become mutant scenes that overflow the territorialization of the theater. We use tools from corporal expression and theater addressing desire as a creative propellant to find other surfaces of vulnerability.
                     </p>
-                    <p>
+                    <p className='font-italic font-bold'>
                         An experience that does not represent, but is.
                     </p>
                     <br />
-                    <div className=''>
+                    <div className='my-[2em]'>
                         <SimpleListItem
                             title='Workshop for Festival Unboxing Pleasures'
                             year='2023'
