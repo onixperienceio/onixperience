@@ -23,12 +23,19 @@ const Performance: NextPage = () => {
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
-                        Tokjuah is the civilizing hero of the Wichí, a native community of South America.
-A multifaceted and hilarious hero-antihero: Tokjuah is the unbridled protagonist of adventures, misfortunes, triumphs, defeats, mistakes, geniuses, loyalties, cheating; he can be the savior of humanity with one of his actions, or cause great disasters just by whim or negligence. Although he is an anthropomorphic entity, we often see him interact with animals and even become one of them or try to imitate them. &#34;A non-Western way of thinking, with its own patterns and logics&#34;.
-
-
+                        Tokjuah is the civilizing hero of the Wichí, a native community of South America.<br />
+                        A multifaceted and hilarious hero-antihero: Tokjuah is the unbridled protagonist of adventures, misfortunes, triumphs, defeats, mistakes, geniuses, loyalties, cheating; he can be the savior of humanity with one of his actions, or cause great disasters just by whim or negligence. Although he is an anthropomorphic entity, we often see him interact with animals and even become one of them or try to imitate them. &#34;A non-Western way of thinking, with its own patterns and logics&#34;.
                     </>}
-                    videoYoutube='https://www.youtube.com/embed/Is81XHmEG3M'
+                    credits={<>
+                        PRODUCED BY Latin American Mime and Body Theater Company<br />
+                        IDEA AND DIRECTION BY Alberto Ivern<br />
+                        PERFORMED BY ONIX-Victoria Momeño, Joaquin Pedroza, Juan Jose Bustos, Emiliano J.C Vazquez, Santiago Juan Foster, Maria Larrea, Maia Noe Rivadeneira, Florencia Poma, Mauro Cavas.<br />
+                        CAMERA BY Carlos Ruiz Monasterio<br />
+                        COSTUMES AND MAKE UP BY  Carmen Bustos <br />
+                        SOUND BY Leonel Villanueva<br />
+                        THANKS TO Victor Hernando, Daniel Berbedez, Cecilia Colombo<br />
+                    </>}
+                    videoYoutube='https://www.youtube.com/embed/sWPDYQiJm4Y'
                 />
                 
                 {images.map((image) => (

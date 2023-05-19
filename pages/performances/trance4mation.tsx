@@ -25,7 +25,15 @@ const Performance: NextPage = () => {
                     description={<>
                         Tune into this Drag-King-Quing and Queen-Show for ears, eyes and brain waves! Let this Visual Radio take you off the binary lane into fluid frequencies with dance, lipsync, comedy and rave. Zap through sex-positivity, light-show and pop-culture, slightly confused but always straight into the Hertzzz.
                     </>}
-                    videoYoutube=''
+                    credits={<>
+                    PRODUCED BY CHAOS URANUS<br />
+                    PERFORMED BY ONIX- Victoria Momeño, Blumen Salas, Kï Lane, Cynna Moon, Switch, Lokke Wurm, Julx, Elmer, Sugar PA, <br />
+                    ASSISTANCE BY Martax<br />
+                    TECHNICAL ASSISTANCE BY Leo <br /><br />
+                    
+                    <p className='font-italic'>Chaos Uranus is a Berlin based collectivity of transdisciplinary performative practices. A mix between the global north and south that joined together to promote shows that question gender and migrant identity.</p>
+                    </>}
+                    videoYoutube='https://www.youtube.com/embed/rZ6sxMMMuak'
                 />
                 
                 {images.map((image) => (

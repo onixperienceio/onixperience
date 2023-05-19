@@ -26,7 +26,16 @@ const Performance: NextPage = () => {
                         Beatriz meets Yuna, or Yuna meets Beatriz. Yuna has a mental breakdown after the death of her smaller brother and Beatriz is there for her, but her family won&apos;t accept her. Crush, love and a cataract of orgasms. If they took out your soul and put it back again, would that be love?
 
                     </>}
-                    videoYoutube='https://www.youtube.com/embed/Is81XHmEG3M'
+                    credits={<>
+                        CO-DIRECTION BY: ONIX-Victoria Momeño & Angela Paula Amarilla <br />
+                        WRITTEN BY : Angela Paula Amarilla<br />
+                        PERFORMED BY: ONIX-Victoria Momeño, Anahi Politi, & Rodrigo Alvarez<br />
+                        SOUND DESIGN BY: Federico Turkanski<br />
+                        COSTUME DESIGN BY Tebas Land<br />
+                        PHOTOS BY Victoria Cozzarín, Milva Scollo & Benjamin Martinez<br />
+                        THANKS TO  Ana Baqueriza<br />
+                    </>}
+                    videoYoutube=''
                 />
                 
                 {images.map((image) => (

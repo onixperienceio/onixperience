@@ -23,12 +23,26 @@ const Performance: NextPage = () => {
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
-                        In order not to behave like automatons in this age subordinated by programs and AI, it is necessary to train sensoriality and memory and to train to include questions such as: Are the images I see real or artificial?
-SISTERE is an interactive training through a virtual environment with live performances. It arises in pandemic, as a device of resistance, as a space to sharpen perception under the question: What of all this really belongs to me?
-
-
+                        In order not to behave like automatons in this age subordinated by programs and AI, it is necessary to train sensoriality and memory and to train to include questions such as: Are the images I see real or artificial?<br />
+                        SISTERE is an interactive training through a virtual environment with live performances. It arises in pandemic, as a device of resistance, as a space to sharpen perception under the question: What of all this really belongs to me?
                     </>}
-                    videoYoutube='https://www.youtube.com/embed/Is81XHmEG3M'
+                    credits={<>
+                        PRODUCED BY SISTERE Collective<br />
+                        PERFORMED BY ONIX- Victoria Momeño, Tania Alejandra, Anik Pedro Pipoca, Victoria Lazcano<br />
+                        VIRTUAL ENVIRONMENT BY Tania Alejandra<br />
+                        ILLUSTRATIONS BY Andy Vicsa, Lucia Esnaurrizar, Yotzin Querrá, Gato, Sophia Perusquia, Jimena Terrones & Sofia Olea<br />
+                        VOICES BY Danchi Del Conte, Katherine Marie, Miguel Romero, Emilio Nolasco, Juan Carmona, Abdiel Castillo, Adrian Belmont, Maframb & Eva Rodriguez<br />
+                        WRITTEN TEXTS BY Amanda Alafita, Andrea Tovar, Andrea Angeles, Montse Bauche, Silvano Vitar, Roberto Rodriguez, Juan P. Rangel, Naxaren Eva Capuano. <br />
+                        VOICE OF ADVERTISMENTS BY Eva Rodriguez<br />
+                        TEXT OF ZIP-CORTEX ADVERTISMENT BY Eme Insua <br />
+                        AI OF ZIP-CORTEX BY Sofia Efron <br />
+                        TECHNICAL SUPPORT BY Axel Pineda.<br />
+                        <br />
+                        <p className='font-italic'>
+                            SISTERE is an interdisciplinary collective that emerges from the artistic residency Flusslab, formed by four people from Germany, Spain, Mexico and Argentina and more than 15 collaborators from all over the world.
+                        </p>
+                    </>}
+                    videoYoutube=''
                 />
                 
                 {images.map((image) => (

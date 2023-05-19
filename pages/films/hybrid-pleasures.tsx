@@ -25,10 +25,11 @@ const Film: NextPage = () => {
                     description={<>
                         In a cyberpunk laboratory, at night, Blumenatrix uses the scientific machinery to explore his body. In another dimension, dwells Onyxen, a human-arachnid creature that only appears to him at certain occasions. But this encounter is different, they will discover pleasure, desire and fantasies for the first time in their life.
                         <br />
-                        <div className='pb-[2em]'>
+                        <div className=''>
                             (Soon)
                         </div>
                     </>}
+                    credits={``}
                     videoYoutube=''
                 />
 

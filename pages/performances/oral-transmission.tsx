@@ -5,7 +5,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
-    const carpeta = 'oral-transmission'
+    const carpeta = 'transmision-oral'
 
     return (
         <div className='projects-container'>
@@ -27,7 +27,12 @@ const Performance: NextPage = () => {
 
 
                     </>}
-                    videoYoutube='https://www.youtube.com/embed/Is81XHmEG3M'
+                    credits={<>
+                        <p className='font-italic'>
+                            This project is the first Staging Workshop of the 13-FIBA, coordinated by Consorcio Feminista & Plataforma LODO. 
+                        </p>
+                    </>}
+                    videoYoutube=''
                 />
                 
                 {images.map((image) => (

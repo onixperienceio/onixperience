@@ -26,7 +26,21 @@ const Performance: NextPage = () => {
                         Happy, trans and in love, Liuna, an Indian woman, and Mba&apos;ehory, a Paraguayan drug dealer, love each other. Together they live in their love nest in the villa. Their world is transformed when a “normal” family goes to live in the villa.
 
                     </>}
-                    videoYoutube='https://www.youtube.com/embed/Is81XHmEG3M'
+                    credits={<>
+                        EXECUTIVE PRODUCTION BY Miriam Florencia Amarilla, Oleksandr Oleynykov<br />
+                        GENERAL PRODUCTION BY Flor Bardon<br />
+                        DIRECTION ASSISTANCE BY ONIX- Victoria Momeño<br />
+                        PERFORMED BY José María Gómez Samela, Martin Lerner, Soeli Naveyra, Daniela Ruiz, Melanie Sussi, Facundo Tablar<br />
+                        COSTUME DESIGN BY Eliana Guzmán<br />
+                        SCENOGRAPHY BY Lola Gullo<br />
+                        LIGHT DESIGN BY Marcelo Fernandez<br />
+                        SOCIAL MEDIA BY Sabrina Silva<br />
+                        PICTURES BY Pablo Gómez Samela<br />
+                        COMMUNICATION BY Sabrina Silva<br />
+                        PUBLIC RELATIONS BY Flor Bardon<br />
+                        AUTHORSHIP AND DIRECTION BY Angela Paula Amarilla<br />
+                    </>}
+                    videoYoutube='https://www.youtube.com/embed/DxiqUVGrGT4'
                 />
                 
                 {images.map((image) => (

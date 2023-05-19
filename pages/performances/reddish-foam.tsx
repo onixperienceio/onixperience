@@ -26,7 +26,13 @@ const Performance: NextPage = () => {
                         Jörg, a German, finds himself in his private bdsm session with Julieta, his Latin dominatrix. But this is not a session like the others, Jörg proposes to try something different, to venture into a cursed history that haunts him in his grandfather&apos;s past. Forbidden fantasies, buried secrets and unspeakable confessions function as the key to a profound reflection on one&apos;s own shadows. Julieta and Jörg will get closer until there is no more place to hide and there, they will discover how much there is that really unites them. A pain, a violence that is lodged in both bodies and that exists beyond all borders.
 
                     </>}
-                    videoYoutube='https://www.youtube.com/embed/Is81XHmEG3M'
+                    credits={<>
+                        PRODUCED BY Orakel33<br />
+                        EXECUTIVE PRODUCER AND CHOREOGRAPHY: ONIX- Victoria Momeño<br />
+                        PERFORMED BY ONIX-Victoria Momeño & Tobias Gelbert<br />
+                        DIRECTED & WRITTEN BY Angela Amarilla<br />
+                    </>}
+                    videoYoutube='https://www.youtube.com/embed/x99iga7gN9s'
                 />
                 
                 {images.map((image) => (
