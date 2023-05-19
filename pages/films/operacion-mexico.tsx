@@ -27,7 +27,6 @@ const Film: NextPage = () => {
                         <div className='font-bold font-italic mt-[1em]'>
                             2016 Best Film Award in the Rellumes Section, 53rd Edition of Gijon&apos;s International Film Festival, Spain.
                         </div>
-                        <br /><br />
                     </>}
                     credits={<>
                         PRODUCED BY ONIX- Victoria Momeño, Fernando Sokolowicz, Claudio Corbelli, Lisandro Brebbia<br />

@@ -24,6 +24,7 @@ const Performance: NextPage = () => {
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
                         An invitation to have dinner and watch short post-porn films. But the dinner doesn&apos;t happen normally, suddenly three people start practicing BDSM and two of them will have to lend their bodies as a banquet. The dom serves vegan sushi. The audience will eat only when he rings the bell. An erotic game, between submission, rebellion and deepness.<br />
+                        <br />
                         <a href="https://vimeo.com/695692581" className='text-sm font-italic'>Watch teaser on Vimeo</a>
                     </>}
                     credits={<>

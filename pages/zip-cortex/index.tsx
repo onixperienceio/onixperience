@@ -21,21 +21,21 @@ const ZipCortex: NextPage = () => {
                             <Image objectFit='cover' layout='fill' src="/../public/images/zip-cortex/ensayo2.png" alt='' />
                         </div>
                         
-                        <div className='self-center'>                    
+                        <div className=''>                    
                             <p className=''>
-                                Zip-Cortex is a transmedial narrative in progress that includes an Immersive Installation, a Series, a Video Game and a Conference.
+                                <span className='font-display'>Zip-Cortex</span> is a transmedial narrative in progress that includes an Immersive Installation, a Series, a Video Game and a Conference.
                             </p>
                             <br />
                             <p>
                                 In a context of climate collapse, the company Heiex wants to upgrade its neuronal implant Zip-Cortex to give the users a happier existence. To this end, Amaya, a Latin American woman who survived the fire on her land, is taken to a brain experiment to recodify her traumatic memory and turn it into a positive experience. But she resists the removal of her trauma. 
                             </p>
                             <br />
-                            <p>
+                            <p className='font-italic'>
                                 (soon)
                             </p>
                         </div> 
                     </div>
-                    <div className='relative sm:h-[80vh] h-[50vh] w-[100%] md:my-10 pb-20'>
+                    <div className='relative sm:h-[80vh] h-[50vh] w-[100%] mb-20'>
                         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5PAZo7qTS-Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                     </div>
             </main>

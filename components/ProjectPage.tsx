@@ -7,7 +7,7 @@ export const ProjectPage  = ({title, subtitle, year, opening, category, imageCov
       <ProjectsHeader />
       <div className="project">
         <div className="capitalize">
-          <p className="font-display text-xl mb-[0.25em]">
+          <p className="font-display text-4xl mb-[0.15em] text-left">
               {title}
           </p>
           <p className='text-sm font-italic'>
@@ -25,7 +25,7 @@ export const ProjectPage  = ({title, subtitle, year, opening, category, imageCov
           {description}
           {credits ?
             <div className="mt-[2em] text-sm">
-              <p>CREDITS</p>
+              <p className="underline">CREDITS</p>
               {credits}
             </div>
             : null
