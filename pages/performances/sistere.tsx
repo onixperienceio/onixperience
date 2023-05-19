@@ -19,7 +19,7 @@ const Performance: NextPage = () => {
                     title='sistere'
                     subtitle = 'Interactive Virtual Performance'
                     year={`2020`}
-                    opening={'Reiche ProjektHaus/ Berlin, Germany'}
+                    opening={<>2020 Flusslab Artistic Residency (GER-ARG). Online openings.</>}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>

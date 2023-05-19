@@ -19,7 +19,7 @@ const Performance: NextPage = () => {
                     title='les quienes'
                     subtitle = 'theater'
                     year={`2019`}
-                    opening={'Reiche ProjektHaus/ Berlin, Germany'}
+                    opening={<>2019 Ricardo Rojas Cultural Center / Buenos Aires, Argentina</>}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.JPG`}
                     description={<>

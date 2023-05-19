@@ -19,7 +19,11 @@ const Performance: NextPage = () => {
                     title='TRANCE4MATION 94.2 FTM Radio'
                     subtitle = 'performance'
                     year={`2022-23`}
-                    opening={'Reiche ProjektHaus/ Berlin, Germany'}
+                    opening={<>
+                        2023 Unboxing Pleasures Festival. Burgtheater / Lingen, Germany <br/>
+                        2022 Fusion Festival. Kulturkosmos / Berlin, Germany<br/>
+                        2022 At.Tension International Theater Festival. Kulturkosmos / Berlin, Germany
+                    </>}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpeg`}
                     description={<>

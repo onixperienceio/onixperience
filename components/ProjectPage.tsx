@@ -23,13 +23,21 @@ export const ProjectPage  = ({title, subtitle, year, opening, category, imageCov
         </div>
         <div className="">
           {description}
+          {opening ?
+            <div className="mt-[2em] text-sm font-italic ">
+              {opening}
+            </div> 
+
+            : null
+          }
           {credits ?
-            <div className="mt-[2em] text-sm">
-              <p className="underline">CREDITS</p>
+            <div className="mt-[3.5em] text-sm ">
+              <p className="underline mb-[0.5em]">CREDITS</p>
               {credits}
             </div>
             : null
           }
+          
         </div>
       </div>
       {videoYoutube ? 

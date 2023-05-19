@@ -19,7 +19,10 @@ const Performance: NextPage = () => {
                     title='optical instrument'
                     subtitle = 'music Visual Performance'
                     year={`2019`}
-                    opening={'Reiche ProjektHaus/ Berlin, Germany'}
+                    opening={<>
+                        2019 Le Vent se Leve / París, Francia
+                        2019 Loophole / Berlín, Alemania
+                    </>}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpeg`}
                     description={<>

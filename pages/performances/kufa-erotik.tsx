@@ -19,7 +19,7 @@ const Performance: NextPage = () => {
                     title='kufa erotik'
                     subtitle = 'inmersive performance'
                     year={`2021`}
-                    opening={'Reiche ProjektHaus/ Berlin, Germany'}
+                    opening={<>2021 Reiche ProjektHaus / Berlin, Germany</>}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>

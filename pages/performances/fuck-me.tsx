@@ -19,7 +19,10 @@ const Performance: NextPage = () => {
                     title='fuck me'
                     subtitle = 'theater'
                     year={`2020`}
-                    opening={'Reiche ProjektHaus/ Berlin, Germany'}
+                    opening={<>
+                        2019 Lecture- KVS / Brussels, Belgium<br />
+                        2020 13-FIBA, International Theater Festival of Buenos Aires, Argentina
+                    </>}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpeg`}
                     description={<>

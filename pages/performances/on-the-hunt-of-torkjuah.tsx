@@ -19,7 +19,7 @@ const Performance: NextPage = () => {
                     title='ON THE HUNT OF TORKJUAH'
                     subtitle = 'mime'
                     year={`2017`}
-                    opening={'Reiche ProjektHaus/ Berlin, Germany'}
+                    opening={'2017 V Latin American Festival of Mime and Body Theater / Buenos Aires, Argentina'}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>

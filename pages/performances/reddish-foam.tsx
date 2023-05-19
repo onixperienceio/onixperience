@@ -19,7 +19,7 @@ const Performance: NextPage = () => {
                     title='reddish foam'
                     subtitle = 'theater'
                     year={`2021`}
-                    opening={'Reiche ProjektHaus/ Berlin, Germany'}
+                    opening={<>2021 Panke Kultur / Berlin, Germany</>}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>

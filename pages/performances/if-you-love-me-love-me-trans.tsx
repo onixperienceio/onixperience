@@ -19,7 +19,10 @@ const Performance: NextPage = () => {
                     title='if you love me love me trans'
                     subtitle = 'theater'
                     year={`2018-19`}
-                    opening={'Reiche ProjektHaus/ Berlin, Germany'}
+                    opening={<>
+                        2019 Recoleta Cultural Center / Buenos Aires, Argentina<br />
+                        2018 La Carpinteria Theater / Buenos Aires, Argentina
+                    </>}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>

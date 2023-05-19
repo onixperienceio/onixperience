@@ -19,7 +19,11 @@ const Performance: NextPage = () => {
                     title='IF I COULD JUST NOT FORGET'
                     subtitle = 'inmersive performance'
                     year={`2018-19`}
-                    opening={'Reiche ProjektHaus/ Berlin, Germany'}
+                    opening={<>
+                        2019 12-FIBA, International Theater Festival of Buenos Aires, Argentina<br />
+                        2018 Feliza Cultural Center / Buenos Aires, Argentina
+
+                    </>}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>

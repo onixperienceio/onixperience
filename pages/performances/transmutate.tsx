@@ -19,7 +19,10 @@ const Performance: NextPage = () => {
                     title='transmutate'
                     subtitle = 'theater'
                     year={`2019`}
-                    opening={'Reiche ProjektHaus/ Berlin, Germany'}
+                    opening={<>
+                        2019 Feliza Cultural Club / Buenos Aires, Argentina<br />
+                        2019 Teatro Popular la Otra Cosa / Buenos Aires, Argentina
+                    </>}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>

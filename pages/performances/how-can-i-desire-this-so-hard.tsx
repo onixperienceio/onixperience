@@ -19,7 +19,7 @@ const Performance: NextPage = () => {
                     title='HOW CAN I DESIRE THIS SO HARD (CPDTE)'
                     subtitle = 'theater'
                     year={`2019`}
-                    opening={'Reiche ProjektHaus/ Berlin, Germany'}
+                    opening={<>2019 Laboratory of Action in the Theatrical Complex of Buenos Aires, Argentina</>}
                     category={`performance`}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
