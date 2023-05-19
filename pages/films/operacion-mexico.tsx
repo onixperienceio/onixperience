@@ -16,8 +16,8 @@ const Film: NextPage = () => {
             </Head>
             <main className="">
                 <ProjectPage
-                    title='operacion mexico'
-                    subtitle=''
+                    title='operacion mexico, un pacto de amor'
+                    subtitle='feature film'
                     year={`2015`}
                     opening=''
                     category={`film`}
@@ -28,6 +28,20 @@ const Film: NextPage = () => {
                             2016 Best Film Award in the Rellumes Section, 53rd Edition of Gijon&apos;s International Film Festival, Spain.
                         </div>
                         <br /><br />
+                    </>}
+                    credits={<>
+                        PRODUCED BY ONIX- Victoria Momeño, Fernando Sokolowicz, Claudio Corbelli, Lisandro Brebbia<br />
+                        EXECUTIVE PRODUCER Victoria Aizenstat<br />
+                        PRODUCTION MANAGER Gastón Grazide<br />
+                        CO-PRODUCTION Alejo Domínguez<br />
+                        DISTRIBUTION 3C Films Group & Primer Plano Film Group<br />
+                        DIRECTED AND WRITTEN BY Leonardo Bechini<br />
+                        NOVEL BY Rafael Bielsa<br />
+                        WITH Luciano Cáceres, Ximena Fassi, Ludovico Di Santo, Patricio Contreras, Luis Ziembrowski, Héctor Calori, Claudio Rissi, Sergio Surraco, Sergio Boris, Paloma Contreras, Ernesto Larrese<br />
+                        DIRECTION OF PHOTOGRAPHY Marcelo Iaccarino<br />
+                        ART DIRECTION Marcela Bazzano<br />
+                        COSTUME DESIGN Violeta Gauvry<br />
+                        ORIGINAL MUSIC Nicolas Bechini<br />
                     </>}
                     videoYoutube='https://www.youtube.com/embed/6K9hJZbhvd0'
                 />

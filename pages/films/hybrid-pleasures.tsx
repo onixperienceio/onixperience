@@ -17,8 +17,8 @@ const Film: NextPage = () => {
             <main className="">
                 <ProjectPage
                     title='hybrid pleasures'
-                    subtitle={``}
-                    year={`2015`}
+                    subtitle={`short film`}
+                    year={`2023`}
                     opening={``}
                     category={`film`}
                     imageCover={`/${carpeta}/portada.jpg`}
@@ -29,7 +29,18 @@ const Film: NextPage = () => {
                             (Soon)
                         </div>
                     </>}
-                    credits={``}
+                    credits={<>
+                        PRODUCED BY: CC_LAB Collective<br />
+                        PERFORMED BY: ONIX- Victoria Momeño & Blumen Salas<br />
+                        PHOTOGRAPHY DIRECTION BY: Tin Welt <br />
+                        ASSISTANCE AND VJ BY: Hernan Kochman <br />
+                        EDITED BY: Camila Delia & Carolina Iglesias<br />
+                        COLOUR BY: Tin Welt<br />
+                        <br />
+                        <p className='font-italic'>CC_LAB Collective is a multidisciplinary and performative experimental laboratory based in Berlin, which researches and produces about desire and posthumanism.<br />
+                        In search of the political character of the body and desire, it articulates questions about how to expand the limits, meanings and forms of eroticism and sexual desire in a society educated with mainstream porn and in a city where fetishism is on the commercial agenda.</p>
+
+                    </>}
                     videoYoutube=''
                 />
 
