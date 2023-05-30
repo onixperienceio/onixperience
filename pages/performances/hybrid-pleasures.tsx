@@ -26,7 +26,7 @@ const Performance: NextPage = () => {
                         An immersive and performative installation that proposes to autohack our desires and our bodies becoming cyborgs in a habitat that mutates between the organic, the inorganic and the bioelectric. A laboratory of erotic practices to deprogram us and culminate in a mutant party. What pleasures does an organic cyborg have?
                     </>}
                     credits={<>
-                        PRODUCED BY: CC_LAB Collective<br />
+                    <span className='font-bold'>PRODUCED BY:</span> CC_LAB Collective<br />
                         INSTALLATION, VIDEOS, VJ AND PERFORMANCE BY: ONIX-Victoria Momeño, Blumen Salas, Camila Delia, Carolina Iglesias, Tin Welt y Hernan Kochman.<br />
                         DJS Niño Envuelto, Pendejx <br />
                         THANKS TO Valeria Nesis, Kiki Ramos, Josefina Barreix, Selu Herraiz, Miguel Goya, Marc Espinar, Aldana Lucía, Julieta Fradkin, Mar Guevara, Aminta Espinoza, Mica Lynn, Reiche, Jelena, Nadja Krüger, Philipp Fröhlich, Martin Schlecht & Coven.<br />
