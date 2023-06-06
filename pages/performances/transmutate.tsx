@@ -2,11 +2,17 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
+import { Credits } from '../../components/Credits'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
     const carpeta = 'transmutar'
     const category = 'performance'
+
+    const creditos = [
+        ['', ''],
+        ['', ''],
+    ]
 
     return (
         <div className='projects-container'>
@@ -40,6 +46,12 @@ const Performance: NextPage = () => {
                         PHOTOS BY Lucia Crohare<br />
                         DRAMATURGIC COLLABORATION BY Daniela De La Cruz<br />
                         THANKS TO Eme Insua<br />
+
+                        {creditos.map((credit) => (
+                        <Credits
+                            role={credit[0]}
+                            name={credit[1]}/>
+                        ))}
                     </>}
                     videoYoutube='https://www.youtube.com/embed/74xA-1NxIR0'
                     imagenes={images.map((image) => (

@@ -2,11 +2,17 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
+import { Credits } from '../../components/Credits'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
     const carpeta = 'sistere'
     const category = 'performance'
+
+    const creditos = [
+        ['', ''],
+        ['', ''],
+    ]
 
     return (
         <div className='projects-container'>
@@ -38,6 +44,12 @@ const Performance: NextPage = () => {
                         TEXT OF ZIP-CORTEX ADVERTISMENT BY Eme Insua <br />
                         AI OF ZIP-CORTEX BY Sofia Efron <br />
                         TECHNICAL SUPPORT BY Axel Pineda.<br />
+
+                        {creditos.map((credit) => (
+                        <Credits
+                            role={credit[0]}
+                            name={credit[1]}/>
+                        ))}
                         <br />
                         <p className='font-italic'>
                             SISTERE is an interdisciplinary collective that emerges from the artistic residency Flusslab, formed by four people from Germany, Spain, Mexico and Argentina and more than 15 collaborators from all over the world.

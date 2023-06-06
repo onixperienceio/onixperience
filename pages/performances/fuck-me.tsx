@@ -2,11 +2,17 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
+import { Credits } from '../../components/Credits'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
     const carpeta = 'fuckme'
     const category = 'performance'
+
+    const creditos = [
+        ['', ''],
+        ['', ''],
+    ]
 
     return (
         <div className='projects-container'>
@@ -51,7 +57,12 @@ const Performance: NextPage = () => {
                         EXECUTIVE PRODUCTION BY  Mariano de Mendonça | Marina D ́Lucca <br />
                         PRODUCER Mariano de Mendonça<br />
                         INTERNATIONAL DISTRIBUTION Timbre 4 & Otto Productions<br />
-                        
+
+                        {creditos.map((credit) => (
+                        <Credits
+                            role={credit[0]}
+                            name={credit[1]}/>
+                        ))}
                     </>}
                     videoYoutube=''
                     imagenes={images.map((image) => (

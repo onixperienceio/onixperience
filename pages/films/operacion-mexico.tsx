@@ -2,11 +2,27 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
+import { Credits } from '../../components/Credits'
 
 const Film: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
     const carpeta = 'operacion-mexico'
     const category = 'film'
+
+    const creditos = [
+        ['produced by', 'ONIX- Victoria Momeño, Fernando Sokolowicz, Claudio Corbelli, Lisandro Brebbia'],
+        ['executive producer', 'Victoria Aizenstat'],
+        ['production manager', 'Victoria Aizenstat'],
+        ['co-production', 'Alejo Domínguez'],
+        ['DISTRIBUTION', '3C Films Group & Primer Plano Film Group'],
+        ['DIRECTED AND WRITTEN BY', 'Leonardo Bechini'],
+        ['novel by', 'Rafael Bielsa'],
+        ['with', 'Luciano Cáceres, Ximena Fassi, Ludovico Di Santo, Patricio Contreras, Luis Ziembrowski, Héctor Calori, Claudio Rissi, Sergio Surraco, Sergio Boris, Paloma Contreras, Ernesto Larrese'],
+        ['DIRECTION OF PHOTOGRAPHY', 'Marcelo Iaccarino'],
+        ['ART DIRECTION', 'Marcela Bazzano'],
+        ['COSTUME DESIGN', 'Violeta Gauvry'],
+        ['ORIGINAL MUSIC', 'Nicolas Bechini'],
+    ]
 
     return (
         <div className='projects-container'>
@@ -30,18 +46,11 @@ const Film: NextPage = () => {
                         </div>
                     </>}
                     credits={<>
-                        PRODUCED BY ONIX- Victoria Momeño, Fernando Sokolowicz, Claudio Corbelli, Lisandro Brebbia<br />
-                        EXECUTIVE PRODUCER Victoria Aizenstat<br />
-                        PRODUCTION MANAGER Gastón Grazide<br />
-                        CO-PRODUCTION Alejo Domínguez<br />
-                        DISTRIBUTION 3C Films Group & Primer Plano Film Group<br />
-                        DIRECTED AND WRITTEN BY Leonardo Bechini<br />
-                        NOVEL BY Rafael Bielsa<br />
-                        WITH Luciano Cáceres, Ximena Fassi, Ludovico Di Santo, Patricio Contreras, Luis Ziembrowski, Héctor Calori, Claudio Rissi, Sergio Surraco, Sergio Boris, Paloma Contreras, Ernesto Larrese<br />
-                        DIRECTION OF PHOTOGRAPHY Marcelo Iaccarino<br />
-                        ART DIRECTION Marcela Bazzano<br />
-                        COSTUME DESIGN Violeta Gauvry<br />
-                        ORIGINAL MUSIC Nicolas Bechini<br />
+                        {creditos.map((credit) => (
+                        <Credits
+                            role={credit[0]}
+                            name={credit[1]}/>
+                        ))} 
                     </>}
                     videoYoutube='https://www.youtube.com/embed/6K9hJZbhvd0'
                     imagenes={images.map((image) => (

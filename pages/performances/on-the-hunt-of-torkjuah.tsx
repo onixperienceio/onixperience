@@ -2,11 +2,17 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
+import { Credits } from '../../components/Credits'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg'];
     const carpeta = 'la-caza'
     const category = 'performance'
+
+    const creditos = [
+        ['', ''],
+        ['', ''],
+    ]
 
     return (
         <div className='projects-container'>
@@ -35,6 +41,12 @@ const Performance: NextPage = () => {
                         COSTUMES AND MAKE UP BY  Carmen Bustos <br />
                         SOUND BY Leonel Villanueva<br />
                         THANKS TO Victor Hernando, Daniel Berbedez, Cecilia Colombo<br />
+
+                        {creditos.map((credit) => (
+                        <Credits
+                            role={credit[0]}
+                            name={credit[1]}/>
+                        ))}
                     </>}
                     videoYoutube='https://www.youtube.com/embed/sWPDYQiJm4Y'
                     imagenes={images.map((image) => (

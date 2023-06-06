@@ -2,11 +2,17 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
+import { Credits } from '../../components/Credits'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
     const carpeta = 'reddish-foam'
     const category = 'performance'
+
+    const creditos = [
+        ['', ''],
+        ['', ''],
+    ]
 
     return (
         <div className='projects-container'>
@@ -32,6 +38,12 @@ const Performance: NextPage = () => {
                         EXECUTIVE PRODUCER AND CHOREOGRAPHY: ONIX- Victoria Momeño<br />
                         PERFORMED BY ONIX-Victoria Momeño & Tobias Gelbert<br />
                         DIRECTED & WRITTEN BY Angela Amarilla<br />
+
+                        {creditos.map((credit) => (
+                        <Credits
+                            role={credit[0]}
+                            name={credit[1]}/>
+                        ))}
                     </>}
                     videoYoutube='https://www.youtube.com/embed/x99iga7gN9s'
                     imagenes={images.map((image) => (

@@ -2,11 +2,17 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
+import { Credits } from '../../components/Credits'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
     const carpeta = 'desire-this'
     const category = 'performance'
+
+    const creditos = [
+        ['', ''],
+        ['', ''],
+    ]
 
     return (
         <div className='projects-container'>
@@ -31,6 +37,12 @@ const Performance: NextPage = () => {
                         <span className='font-bold'>ASSITANCE BY</span> Carolina Berg<br />
                         <span className='font-bold'>DRAMATURGIC COLLABORATION BY</span> ONIX-Victoria Momeño<br />
                          PHOTOS BY Camila Buendia <br />
+
+                        {creditos.map((credit) => (
+                        <Credits
+                            role={credit[0]}
+                            name={credit[1]}/>
+                        ))}
                     </>}
                     videoYoutube='https://www.youtube.com/embed/122h4BLQ8Qw'
                     imagenes= {images.map((image) => (

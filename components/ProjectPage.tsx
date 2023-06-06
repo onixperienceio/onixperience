@@ -3,7 +3,7 @@ import { ProjectsHeader } from "./ProjectsHeader";
 export const ProjectPage  = ({title, subtitle, year, opening, category, imageCover, description, credits, videoYoutube, imagenes}) => {
 
   return (
-    <div className="">
+    <div className="pb-20">
       
       <ProjectsHeader />
       

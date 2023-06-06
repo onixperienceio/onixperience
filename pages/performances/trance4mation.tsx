@@ -2,11 +2,17 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
+import { Credits } from '../../components/Credits'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
     const carpeta = 'trance4mation'
     const category = 'performance'
+
+    const creditos = [
+        ['', ''],
+        ['', ''],
+    ]
 
     return (
         <div className='projects-container'>
@@ -35,6 +41,12 @@ const Performance: NextPage = () => {
                     PERFORMED BY ONIX- Victoria Momeño, Blumen Salas, Kï Lane, Cynna Moon, Switch, Lokke Wurm, Julx, Elmer, Sugar PA, <br />
                     ASSISTANCE BY Martax<br />
                     TECHNICAL ASSISTANCE BY Leo <br /><br />
+
+                    {creditos.map((credit) => (
+                        <Credits
+                            role={credit[0]}
+                            name={credit[1]}/>
+                        ))}
                     
                     <p className='font-italic'>Chaos Uranus is a Berlin based collectivity of transdisciplinary performative practices. A mix between the global north and south that joined together to promote shows that question gender and migrant identity.</p>
                     </>}

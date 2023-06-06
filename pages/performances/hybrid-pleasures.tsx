@@ -2,11 +2,17 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
+import { Credits } from '../../components/Credits'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
     const carpeta = 'hybrid-pleasures'
     const category = 'performance'
+
+    const creditos = [
+        ['', ''],
+        ['', ''],
+    ]    
 
     return (
         <div className='projects-container'>
@@ -34,6 +40,11 @@ const Performance: NextPage = () => {
                         <br />
                         <p className='font-italic'>CC_LAB Collective is a multidisciplinary and performative experimental laboratory based in Berlin, which researches and produces about desire and posthumanism. CC_LAB explores mutant bodies and desires from a migrant and precarious perspective and from different artistic and technological disciplines, fusing performance, real time endoscopic cameras, vj and sound-light interfaces.</p>
 
+                        {creditos.map((credit) => (
+                        <Credits
+                            role={credit[0]}
+                            name={credit[1]}/>
+                        ))}
                     </>}
                     videoYoutube='https://www.youtube.com/embed/Is81XHmEG3M'
                     imagenes={images.map((image) => (

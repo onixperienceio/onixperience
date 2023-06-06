@@ -2,11 +2,17 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
+import { Credits } from '../../components/Credits'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
     const carpeta = 'loveme-trans'
     const category = 'performance'
+
+    const creditos = [
+        ['', ''],
+        ['', ''],
+    ]
 
     return (
         <div className='projects-container'>
@@ -38,6 +44,12 @@ const Performance: NextPage = () => {
                         WRITTEN & DIRECTED BY Daniela Ruiz<br />
                         PERFORMED BY Emiliano Figueredo, Juan Manuel Gonzalez Rotstein, Camila Kyu, Soeli Naveyra, María Pía Martignoni, & ONIX- Victoria Momeño<br />
                         ASSISTED BY Mario <br />
+
+                        {creditos.map((credit) => (
+                        <Credits
+                            role={credit[0]}
+                            name={credit[1]}/>
+                        ))}
                     </>}
                     videoYoutube=''
                     imagenes={images.map((image) => (
