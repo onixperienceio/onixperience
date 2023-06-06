@@ -4,8 +4,9 @@ import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
 
 const Performance: NextPage = () => {
-    const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
+    const images = ['1.jpg', '2.jpg', '3.jpg'];
     const carpeta = 'transmision-oral'
+    const category = 'performance'
 
     return (
         <div className='projects-container'>
@@ -20,8 +21,8 @@ const Performance: NextPage = () => {
                     subtitle = 'performance'
                     year={`2020`}
                     opening={<>2020 13-FIBA, International Theater Festival of Buenos Aires, Argentina</>}
-                    category={`performance`}
-                    imageCover={`${carpeta}/portada.png`}
+                    category={category}
+                    imageCover={`${carpeta}/portada.jpg`}
                     description={<>
                         Oral transmission explores the powerful, fascinating and dangerous aspects of kissing in public with more than 50 performers kissing at the same time. The street as a place to build new social imaginaries. There, every kiss is a political act.
 
@@ -33,15 +34,12 @@ const Performance: NextPage = () => {
                         </p>
                     </>}
                     videoYoutube=''
+                    imagenes={images.map((image) => (
+                        <ImageGallery
+                            image={`${category}/${carpeta}/${image}`}
+                            key={image}/>
+                    ))}
                 />
-                
-                {images.map((image) => (
-                    <ImageGallery
-                    image={`${carpeta}/${image}`}
-                        key={1}/>
-                ))}
-
-               
             </main>
         </div>
     )

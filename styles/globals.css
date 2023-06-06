@@ -15,6 +15,10 @@
   src: url('../assets/fonts/MONTSERRAT-LIGHTITALIC.TTF');
 }
 
+* {
+  transition: 100ms;
+}
+
 body,
 body[data-theme="light"] {
   --main-color: rgb(9, 9, 9);
@@ -69,20 +73,24 @@ a.active {
 }
 
 .container {
-  @apply mt-20 sm:pt-6 sm:max-w-[80%] max-w-[85%] mx-auto
+  @apply mt-28 sm:pt-6 sm:max-w-[80%] max-w-[85%] mx-auto
   /* @apply mt-20 mx-auto */
 }
 
 .projects-container {
-  @apply sm:mt-12 mt-40 sm:pt-5 mx-4 pb-10
+  @apply sm:mt-48 mt-64 sm:pt-5 sm:mx-20 mx-10 pb-10
 }
 
 .projects {
-  @apply pt-16 pb-20 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 
+  @apply  pb-20 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 
+}
+
+.projects-header {
+  @apply absolute mx-4 pb-3 z-10 mt-28 top-0 left-0 right-0 border-b
 }
 
 .project {
-  @apply pt-16 pb-20 grid grid-cols-1 md:gap-6 gap-2 md:grid-cols-2 
+  @apply sm:pt-28 pt-20 pb-20 grid grid-cols-1 md:gap-6 gap-2 md:grid-cols-2 
 }
 
 .cv-grid {
@@ -95,12 +103,13 @@ a.active {
 }
 
 .image-gallery {
-  @apply mb-[4em] flex justify-center
+  /* @apply mb-[4em] flex flex-wrap justify-center */
+  
 }
 
-.image-gallery img {
+/* .image-gallery img {
   @apply max-h-[100vh]
-}
+} */
 
 @media (max-width: 800px) {
   .cv-grid {

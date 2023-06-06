@@ -23,7 +23,7 @@ const Performances: NextPage = () => {
                             title='TRANCE4MATION 94.2 FTM Radio'
                             category='performance'
                             year='2022-23'
-                            image='trance4mation/portada.jpeg'
+                            image='trance4mation/portada.jpg'
                         />
                     </a></Link>
                     <Link href="performances/hybrid-pleasures"><a >
@@ -96,7 +96,7 @@ const Performances: NextPage = () => {
                             title='ORAL TRANSMISSION'
                             category='performance'
                             year='2020'
-                            image='transmision-oral/portada.png'
+                            image='transmision-oral/portada.jpg'
                         />
                     </a></Link>
                     <Link href="performances/how-can-i-desire-this-so-hard"><a>
@@ -112,7 +112,7 @@ const Performances: NextPage = () => {
                             title='OPTICAL INSTRUMENT'
                             category='performance'
                             year='2019'
-                            image='io/portada.jpeg'
+                            image='io/portada.jpg'
                         />
                     </a></Link>
                     <Link href="performances/fuck-me"><a>
@@ -120,7 +120,7 @@ const Performances: NextPage = () => {
                             title='FUCK ME'
                             category='performance'
                             year='2020'
-                            image='fuckme/portada.jpeg'
+                            image='fuckme/portada.jpg'
                         />
                     </a></Link>
                     <Link href="performances/on-the-hunt-of-torkjuah"><a>

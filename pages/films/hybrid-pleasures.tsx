@@ -6,6 +6,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 const Film: NextPage = () => {
     const images = ['2.jpg', '1.jpg', '3.jpg', '4.jpg'];
     const carpeta = 'hybrid-pleasures'
+    const category = 'film'
 
     return (
         <div className='projects-container'>
@@ -14,20 +15,16 @@ const Film: NextPage = () => {
             <meta name="description" content="ONIX" />
             <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className="">
+            <main className="pb-20">
                 <ProjectPage
                     title='hybrid pleasures'
                     subtitle={`short film`}
                     year={`2023`}
-                    opening={``}
-                    category={`film`}
+                    opening={`(SOON)`}
+                    category={category}
                     imageCover={`/${carpeta}/portada.jpg`}
                     description={<>
                         In a cyberpunk laboratory, at night, Blumenatrix uses the scientific machinery to explore his body. In another dimension, dwells Onyxen, a human-arachnid creature that only appears to him at certain occasions. But this encounter is different, they will discover pleasure, desire and fantasies for the first time in their life.
-                        <br />
-                        <div className=''>
-                            (Soon)
-                        </div>
                     </>}
                     credits={<>
                         PRODUCED BY: CC_LAB Collective<br />
@@ -42,15 +39,12 @@ const Film: NextPage = () => {
 
                     </>}
                     videoYoutube=''
+                    imagenes={images.map((image) => (
+                        <ImageGallery
+                            image={`${category}/${carpeta}/${image}`}
+                            key={image}/>
+                    ))} 
                 />
-
-                {images.map((image) => (
-                    <ImageGallery
-                        image={`${carpeta}/${image}`}
-                        key={1}/>
-                ))}
-
-               
             </main>
         </div>
     )

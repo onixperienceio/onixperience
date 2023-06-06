@@ -6,6 +6,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
     const carpeta = 'loveme-trans'
+    const category = 'performance'
 
     return (
         <div className='projects-container'>
@@ -23,7 +24,7 @@ const Performance: NextPage = () => {
                         2019 Recoleta Cultural Center / Buenos Aires, Argentina<br />
                         2018 La Carpinteria Theater / Buenos Aires, Argentina
                     </>}
-                    category={`performance`}
+                    category={category}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
                         Is born from improvisations based on the personal stories of each of the members of the company. As a tragicomedy, it tells the story of Brenda and Raul, a young man who despite having received an orthodox education, falls in love with a trans girl and must fight against the prejudices and insecurities of Brenda, who doesn&apos;t want to get hurt and therefore hesitates all the time whether to accept the proposal made by her boyfriend to live together or not.<br />
@@ -39,15 +40,12 @@ const Performance: NextPage = () => {
                         ASSISTED BY Mario <br />
                     </>}
                     videoYoutube=''
+                    imagenes={images.map((image) => (
+                            <ImageGallery
+                                image={`${category}/${carpeta}/${image}`}
+                                key={image}/>
+                    ))}
                 />
-                
-                {images.map((image) => (
-                    <ImageGallery
-                    image={`${carpeta}/${image}`}
-                        key={1}/>
-                ))}
-
-               
             </main>
         </div>
     )

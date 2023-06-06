@@ -4,8 +4,9 @@ import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
 
 const Performance: NextPage = () => {
-    const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
+    const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
     const carpeta = 'sistere'
+    const category = 'performance'
 
     return (
         <div className='projects-container'>
@@ -20,7 +21,7 @@ const Performance: NextPage = () => {
                     subtitle = 'Interactive Virtual Performance'
                     year={`2020`}
                     opening={<>2020 Flusslab Artistic Residency (GER-ARG). Online openings.</>}
-                    category={`performance`}
+                    category={category}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
                         In order not to behave like automatons in this age subordinated by programs and AI, it is necessary to train sensoriality and memory and to train to include questions such as: Are the images I see real or artificial?<br />
@@ -42,16 +43,13 @@ const Performance: NextPage = () => {
                             SISTERE is an interdisciplinary collective that emerges from the artistic residency Flusslab, formed by four people from Germany, Spain, Mexico and Argentina and more than 15 collaborators from all over the world.
                         </p>
                     </>}
-                    videoYoutube=''
+                    videoYoutube='https://www.youtube.com/embed/LqGvz057wdo'
+                    imagenes={images.map((image) => (
+                        <ImageGallery
+                            image={`${category}/${carpeta}/${image}`}
+                            key={image}/>
+                    ))} 
                 />
-                
-                {images.map((image) => (
-                    <ImageGallery
-                    image={`${carpeta}/${image}`}
-                        key={1}/>
-                ))}
-
-               
             </main>
         </div>
     )

@@ -4,8 +4,9 @@ import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
 
 const Performance: NextPage = () => {
-    const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
+    const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
     const carpeta = 'transmutar'
+    const category = 'performance'
 
     return (
         <div className='projects-container'>
@@ -23,7 +24,7 @@ const Performance: NextPage = () => {
                         2019 Feliza Cultural Club / Buenos Aires, Argentina<br />
                         2019 Teatro Popular la Otra Cosa / Buenos Aires, Argentina
                     </>}
-                    category={`performance`}
+                    category={category}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
                        Trasmutate invites us to another time where categories and genders do not exist. The play is a collective but deeply intimate journey, where the characters go through vital experiences and questions and put into action other ways of bonding. By staging personal memories and functioning as a reflection of others, it asks ourselves: what is a sense liberated from meaning? Is it possible to compose our bodies in more bodies and intensify their powers to the limit without breaking or destroying themselves?
@@ -41,15 +42,12 @@ const Performance: NextPage = () => {
                         THANKS TO Eme Insua<br />
                     </>}
                     videoYoutube='https://www.youtube.com/embed/74xA-1NxIR0'
+                    imagenes={images.map((image) => (
+                        <ImageGallery
+                            image={`${category}/${carpeta}/${image}`}
+                            key={image}/>
+                    ))}
                 />
-                
-                {images.map((image) => (
-                    <ImageGallery
-                    image={`${carpeta}/${image}`}
-                        key={1}/>
-                ))}
-
-               
             </main>
         </div>
     )

@@ -4,8 +4,9 @@ import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
 
 const Performance: NextPage = () => {
-    const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
+    const images = ['1.jpg', '2.jpg'];
     const carpeta = 'la-caza'
+    const category = 'performance'
 
     return (
         <div className='projects-container'>
@@ -20,7 +21,7 @@ const Performance: NextPage = () => {
                     subtitle = 'mime'
                     year={`2017`}
                     opening={'2017 V Latin American Festival of Mime and Body Theater / Buenos Aires, Argentina'}
-                    category={`performance`}
+                    category={category}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
                         Tokjuah is the civilizing hero of the Wichí, a native community of South America.<br />
@@ -36,15 +37,12 @@ const Performance: NextPage = () => {
                         THANKS TO Victor Hernando, Daniel Berbedez, Cecilia Colombo<br />
                     </>}
                     videoYoutube='https://www.youtube.com/embed/sWPDYQiJm4Y'
+                    imagenes={images.map((image) => (
+                        <ImageGallery
+                            image={`${category}/${carpeta}/${image}`}
+                            key={image}/>
+                    ))}
                 />
-                
-                {images.map((image) => (
-                    <ImageGallery
-                    image={`${carpeta}/${image}`}
-                        key={1}/>
-                ))}
-
-               
             </main>
         </div>
     )

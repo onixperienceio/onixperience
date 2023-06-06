@@ -4,8 +4,9 @@ import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
 
 const Performance: NextPage = () => {
-    const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
+    const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
     const carpeta = 'fuckme'
+    const category = 'performance'
 
     return (
         <div className='projects-container'>
@@ -23,8 +24,8 @@ const Performance: NextPage = () => {
                         2019 Lecture- KVS / Brussels, Belgium<br />
                         2020 13-FIBA, International Theater Festival of Buenos Aires, Argentina
                     </>}
-                    category={`performance`}
-                    imageCover={`${carpeta}/portada.jpeg`}
+                    category={category}
+                    imageCover={`${carpeta}/portada.jpg`}
                     description={<>
                        &#34;I always imagined myself at the center of the scene, as a heroine, taking revenge for everything. But my body wasn&apos;t enough for such a battle. Today I leave my place to the interpreters. I&apos;m going to watch how they lend their bodies to my narcissistic cause&#34;. Marina Otero intends to build an endless work about her life. FUCK ME is the third part of a series that explores the passage of time and the marks that a body holds.
                        <br />
@@ -53,13 +54,12 @@ const Performance: NextPage = () => {
                         
                     </>}
                     videoYoutube=''
-                />
-                
-                {images.map((image) => (
-                    <ImageGallery
-                    image={`${carpeta}/${image}`}
-                        key={1}/>
-                ))}               
+                    imagenes={images.map((image) => (
+                            <ImageGallery
+                                image={`${category}/${carpeta}/${image}`}
+                                key={image}/>
+                    ))}
+                />            
             </main>
         </div>
     )

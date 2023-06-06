@@ -6,6 +6,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
     const carpeta = 'trance4mation'
+    const category = 'performance'
 
     return (
         <div className='projects-container'>
@@ -24,8 +25,8 @@ const Performance: NextPage = () => {
                         2022 Fusion Festival. Kulturkosmos / Berlin, Germany<br/>
                         2022 At.Tension International Theater Festival. Kulturkosmos / Berlin, Germany
                     </>}
-                    category={`performance`}
-                    imageCover={`${carpeta}/portada.jpeg`}
+                    category={category}
+                    imageCover={`${carpeta}/portada.jpg`}
                     description={<>
                         Tune into this Drag-King-Quing and Queen-Show for ears, eyes and brain waves! Let this Visual Radio take you off the binary lane into fluid frequencies with dance, lipsync, comedy and rave. Zap through sex-positivity, light-show and pop-culture, slightly confused but always straight into the Hertzzz.
                     </>}
@@ -38,15 +39,12 @@ const Performance: NextPage = () => {
                     <p className='font-italic'>Chaos Uranus is a Berlin based collectivity of transdisciplinary performative practices. A mix between the global north and south that joined together to promote shows that question gender and migrant identity.</p>
                     </>}
                     videoYoutube='https://www.youtube.com/embed/rZ6sxMMMuak'
+                    imagenes={images.map((image) => (
+                        <ImageGallery
+                            image={`${category}/${carpeta}/${image}`}
+                            key={image}/>
+                    ))}
                 />
-                
-                {images.map((image) => (
-                    <ImageGallery
-                    image={`${carpeta}/${image}`}
-                        key={1}/>
-                ))}
-
-               
             </main>
         </div>
     )

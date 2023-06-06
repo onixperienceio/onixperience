@@ -6,6 +6,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 const Film: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
     const carpeta = 'indeseables'
+    const category = 'film'
 
     return (
         <div className='projects-container'>
@@ -20,7 +21,7 @@ const Film: NextPage = () => {
                     subtitle='short film'
                     year={`2021`}
                     opening=''
-                    category={`film`}
+                    category={category}
                     imageCover={`/${carpeta}/portada.jpg`}
                     description={<>
                         How deep is what you desire? How deep is what you long for? To see the woman of your dreams dancing the 60s swing with a knife in her hand, maybe that&apos;s paradise
@@ -44,16 +45,13 @@ const Film: NextPage = () => {
                         TRANSLATION BY Ezequiel Zaidenwerg<br />
                         THANKS TO Alejandro Casagrande<br />
                     </>}
-                    videoYoutube='https://www.youtube.com/embed/6K9hJZbhvd0'
+                    videoYoutube='https://www.youtube.com/embed/yPAgKpak1Dg'
+                    imagenes={images.map((image) => (
+                        <ImageGallery
+                            image={`${category}/${carpeta}/${image}`}
+                            key={image}/>
+                    ))} 
                 />
-
-                {images.map((image) => (
-                    <ImageGallery
-                        image={`${carpeta}/${image}`}
-                        key={1}/>
-                ))}
-
-               
             </main>
         </div>
     )

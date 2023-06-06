@@ -4,8 +4,9 @@ import { ProjectPage } from '../../components/ProjectPage'
 import { ImageGallery } from '../../components/ImageGallery'
 
 const Performance: NextPage = () => {
-    const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
+    const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
     const carpeta = 'les-quienes'
+    const category = 'performance'
 
     return (
         <div className='projects-container'>
@@ -20,7 +21,7 @@ const Performance: NextPage = () => {
                     subtitle = 'theater'
                     year={`2019`}
                     opening={<>2019 Ricardo Rojas Cultural Center / Buenos Aires, Argentina</>}
-                    category={`performance`}
+                    category={category}
                     imageCover={`${carpeta}/portada.JPG`}
                     description={<>
                         Happy, trans and in love, Liuna, an Indian woman, and Mba&apos;ehory, a Paraguayan drug dealer, love each other. Together they live in their love nest in the villa. Their world is transformed when a “normal” family goes to live in the villa.
@@ -41,15 +42,12 @@ const Performance: NextPage = () => {
                         AUTHORSHIP AND DIRECTION BY Angela Paula Amarilla<br />
                     </>}
                     videoYoutube='https://www.youtube.com/embed/DxiqUVGrGT4'
-                />
-                
-                {images.map((image) => (
-                    <ImageGallery
-                    image={`${carpeta}/${image}`}
-                        key={1}/>
+                    imagenes={images.map((image) => (
+                        <ImageGallery
+                            image={`${category}/${carpeta}/${image}`}
+                            key={image}/>
                 ))}
-
-               
+                />
             </main>
         </div>
     )

@@ -5,7 +5,7 @@ export const ProjectsHeader = () => {
   const router = useRouter();
 
   return (
-    <div className="absolute mx-4 pb-3 z-10 mt-16 top-0 left-0 right-0 menu border-b">
+    <div className="projects-header menu">
 
       <div className="flex sm:flex-row flex-col text-right justify-between sm:text-xl text-l uppercase">
 

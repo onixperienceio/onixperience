@@ -16,7 +16,7 @@ const Bio: NextPage = () => {
             <main className='container'>
                 <div className='flex flex-col lg:flex-row gap-6 pb-11 lg:pb-0'>
                     <div className='relative lg:min-w-[50%]'>
-                        <img src="/images/yo.jpg" alt='' />
+                        <img src="/images/bio1.jpg" alt='' />
                     </div>
                     
                     <div className="">
@@ -39,7 +39,7 @@ const Bio: NextPage = () => {
                         </p>
                     </div>
                 </div>
-                <div className='pt-10 pb-11'>
+                <div className='pt-20 pb-11'>
                     <ListItem
                         title='TITLE'
                         category='CATEGORY'
@@ -57,8 +57,10 @@ const Bio: NextPage = () => {
                     <ListItem
                         title='Trance4mation 94.2 Ftm Radio'
                         category='Performance'
-                        opening='Unboxing Pleasures Festival, Lingen, Germany. Fusion Festival, Berlin, Germany
-                        At.Tension International Theater Festival,Berlin, Germany'
+                        opening={<>
+                            Unboxing Pleasures Festival, Lingen, Germany <br />
+                            Fusion Festival, Berlin, Germany <br />
+                            At.Tension International Theater Festival, Berlin, Germany</>}
                         date='2023'
                     />
                     <ListItem
@@ -130,8 +132,9 @@ const Bio: NextPage = () => {
                     <ListItem
                         title='Trasmutate'
                         category='Performance'
-                        opening='Feliza Cultural Club, Buenos Aires, Argentina
-                        Teatro Popular la Otra Cosa, Buenos Aires, Argentina'
+                        opening={<>
+                            Feliza Cultural Club, Buenos Aires, Argentina <br />
+                            Teatro Popular la Otra Cosa, Buenos Aires, Argentina</>}
                         date='2019'
                     />
                     <ListItem
@@ -143,8 +146,10 @@ const Bio: NextPage = () => {
                     <ListItem
                         title='If you love me, love me trans'
                         category='Performance'
-                        opening='Recoleta Cultural Center, Buenos Aires,Argentina
-                        La Carpintería Theater, Buenos Aires,Argentina'
+                        opening={<>
+                            Recoleta Cultural Center, Buenos Aires, Argentina <br />
+                            La Carpintería Theater, Buenos Aires, Argentina
+                        </>}
                         date='2019-18'
                     />
                     <ListItem
@@ -156,8 +161,9 @@ const Bio: NextPage = () => {
                     <ListItem
                         title='Optical Instrument'
                         category='Performance'
-                        opening='Le Vent se Lève, Paris, France
-                        Loophole, Berlin, Germany'
+                        opening={<>
+                            Le Vent se Lève, Paris, France <br />
+                            Loophole, Berlin, Germany</>}
                         date='2019'
                     />
                     <ListItem

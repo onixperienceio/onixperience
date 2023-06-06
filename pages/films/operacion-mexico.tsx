@@ -6,6 +6,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 const Film: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
     const carpeta = 'operacion-mexico'
+    const category = 'film'
 
     return (
         <div className='projects-container'>
@@ -20,7 +21,7 @@ const Film: NextPage = () => {
                     subtitle='feature film'
                     year={`2015`}
                     opening=''
-                    category={`film`}
+                    category={category}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
                         In a shocked Argentina, in the summer of 1978, the militants of an insurgent organization Edgar Tulio Valenzuela (Tucho) and Raquel Negro (María) with an advanced pregnancy and a young son, are kidnapped by the Armed Forces and taken to the suburbs of Rosario. A high commander of the Argentine Army makes Tucho a proposal that if he complies, he will betray the ideals to which he has dedicated all his life and if he rejects it, he will lose his wife, his son and his new child. María and Tucho make a pact.
@@ -43,15 +44,12 @@ const Film: NextPage = () => {
                         ORIGINAL MUSIC Nicolas Bechini<br />
                     </>}
                     videoYoutube='https://www.youtube.com/embed/6K9hJZbhvd0'
+                    imagenes={images.map((image) => (
+                        <ImageGallery
+                            image={`${category}/${carpeta}/${image}`}
+                            key={image}/>
+                    ))} 
                 />
-                
-                {images.map((image) => (
-                    <ImageGallery
-                    image={`${carpeta}/${image}`}
-                        key={1}/>
-                ))}
-
-               
             </main>
         </div>
     )
