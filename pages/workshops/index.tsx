@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { ProjectPreview } from '../../components/ProjectPreview'
 import { SimpleListItem } from '../../components/SimpleListItem'
 import { ProjectPage } from '../../components/ProjectPage'
+import { ProjectsHeader } from '../../components/ProjectsHeader'
 import Link from 'next/link'
 
 const Workshops: NextPage = () => {
@@ -16,7 +17,8 @@ const Workshops: NextPage = () => {
             <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className="projects-container">
-                <div className='sm:pt-14 pb-20 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 '>
+                <ProjectsHeader />
+                <div className='pb-20 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 '>
                     <Link href="/workshops/theatra"><a >
                         <ProjectPreview
                             title='Theatra'
