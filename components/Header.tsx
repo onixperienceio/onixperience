@@ -30,9 +30,9 @@ export const Header = () => {
             </a>
           </Link>
         </div>
-        <p className="font-display sm:text-4xl text-3xl sm:pt-2 pt-3"><Link href="/"
-          >
-            <a className={router.pathname == "/" ? "active" : ""}>
+        <p className="font-display sm:text-4xl text-3xl sm:pt-2 pt-3">
+          <Link href="/performances">
+            <a>
               {/* <img className="max-h-[5em]" src="/logo1.png" alt="" /> */}
               onix
             </a>
