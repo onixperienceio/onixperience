@@ -45,7 +45,8 @@ const Performance: NextPage = () => {
                         {creditos.map((credit) => (
                         <Credits
                             role={credit[0]}
-                            name={credit[1]}/>
+                            name={credit[1]}
+                            key={credit[1]}/>
                         ))}
 
                         <p className='font-italic'>CC_LAB Collective is a multidisciplinary and performative experimental laboratory based in Berlin, which researches and produces about desire and posthumanism. In search of the political character of the body and desire, it articulates questions about how to expand the limits, meanings and forms of eroticism and sexual desire in a society educated with mainstream porn and in a city where fetishism is on the commercial agenda.</p>
@@ -55,7 +56,7 @@ const Performance: NextPage = () => {
                     imagenes={images.map((image) => (
                         <ImageGallery
                             image={`${category}/${carpeta}/${image}`}
-                            key={1}/>
+                            key={image}/>
                     ))}
                 />
             </main>

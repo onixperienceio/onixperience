@@ -50,14 +50,15 @@ const Performance: NextPage = () => {
                         {creditos.map((credit) => (
                         <Credits
                             role={credit[0]}
-                            name={credit[1]}/>
+                            name={credit[1]}
+                            key={credit[1]}/>
                         ))}
                     </>}
                     videoYoutube='https://www.youtube.com/embed/DxiqUVGrGT4'
                     imagenes={images.map((image) => (
                         <ImageGallery
                             image={`${category}/${carpeta}/${image}`}
-                            key={1}/>
+                            key={image}/>
                 ))}
                 />
             </main>

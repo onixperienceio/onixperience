@@ -40,7 +40,8 @@ const Film: NextPage = () => {
                         {creditos.map((credit) => (
                         <Credits
                             role={credit[0]}
-                            name={credit[1]}/>
+                            name={credit[1]}
+                            key={credit[1]}/>
                         ))} 
                         <br />
                         <p className='font-italic'>CC_LAB Collective is a multidisciplinary and performative experimental laboratory based in Berlin, which researches and produces about desire and posthumanism.<br />
@@ -51,7 +52,7 @@ const Film: NextPage = () => {
                     imagenes={images.map((image) => (
                         <ImageGallery
                             image={`${category}/${carpeta}/${image}`}
-                            key={1}/>
+                            key={image}/>
                     ))} 
                 />
             </main>

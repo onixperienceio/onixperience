@@ -45,7 +45,8 @@ const Performance: NextPage = () => {
                     {creditos.map((credit) => (
                         <Credits
                             role={credit[0]}
-                            name={credit[1]}/>
+                            name={credit[1]}
+                            key={credit[1]}/>
                         ))}
                     
                     <p className='font-italic'>Chaos Uranus is a Berlin based collectivity of transdisciplinary performative practices. A mix between the global north and south that joined together to promote shows that question gender and migrant identity.</p>
@@ -54,7 +55,7 @@ const Performance: NextPage = () => {
                     imagenes={images.map((image) => (
                         <ImageGallery
                             image={`${category}/${carpeta}/${image}`}
-                            key={1}/>
+                            key={image}/>
                     ))}
                 />
             </main>
