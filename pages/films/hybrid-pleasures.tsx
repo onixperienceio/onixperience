@@ -51,7 +51,7 @@ const Film: NextPage = () => {
                     imagenes={images.map((image) => (
                         <ImageGallery
                             image={`${category}/${carpeta}/${image}`}
-                            key={image}/>
+                            key={1}/>
                     ))} 
                 />
             </main>
