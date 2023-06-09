@@ -22,10 +22,12 @@ export const ProjectsHeader = () => {
               films
             </a>
           </Link>
-          {/* <Link href="/zip-cortex"
+
+          {/* para agregar un item al menu de projects */}
+          {/* <Link href="/music"
           >
-            <a className={router.pathname == "/zip-cortex" ? "active" : ""}>
-              zip-cortex
+            <a className={router.pathname == "/music" ? "active" : ""}>
+              music
             </a>
           </Link> */}
 
