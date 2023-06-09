@@ -66,6 +66,8 @@ a {
 
 a:hover {
   color: var(--link-hover);
+  /* color: transparent;
+  text-shadow: 0 0 4px var(--link-hover); */
 }
 
 a.active {
@@ -101,15 +103,6 @@ a.active {
   justify-content: center;
   text-align: left;
 }
-
-.image-gallery {
-  /* @apply mb-[4em] flex flex-wrap justify-center */
-  
-}
-
-/* .image-gallery img {
-  @apply max-h-[100vh]
-} */
 
 @media (max-width: 800px) {
   .cv-grid {

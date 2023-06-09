@@ -22,12 +22,12 @@ export const ProjectsHeader = () => {
               films
             </a>
           </Link>
-          <Link href="/zip-cortex"
+          {/* <Link href="/zip-cortex"
           >
             <a className={router.pathname == "/zip-cortex" ? "active" : ""}>
               zip-cortex
             </a>
-          </Link>
+          </Link> */}
 
           <Link href="/publications"
           >

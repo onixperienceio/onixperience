@@ -12,8 +12,13 @@ export const Header = () => {
 
       <div className="flex justify-between mx-3 px-1 py-4 border-b">
         <div className="flex flex-col"> 
-          <div>
-            .
+          <div className="block">
+            <a href="">
+              ig
+            </a>&nbsp;
+            <a href="">
+              ln
+            </a>
           </div> 
           <br />
           <Link href="/performances"
@@ -30,7 +35,7 @@ export const Header = () => {
             </a>
           </Link>
         </div>
-        <p className="font-display sm:text-4xl text-3xl sm:pt-2 pt-3">
+        <p className="font-display sm:text-4xl text-3xl sm:pt-2 pt-3 blur-[2px]">
           <Link href="/performances">
             <a>
               {/* <img className="max-h-[5em]" src="/logo1.png" alt="" /> */}
