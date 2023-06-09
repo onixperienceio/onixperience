@@ -8,7 +8,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 
 
 const ZipCortex: NextPage = () => {
-    const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
+    const images = [''];
     const carpeta = 'zip-cortex'
 
     return (
@@ -20,23 +20,15 @@ const ZipCortex: NextPage = () => {
             </Head>
             <main className="">
                 <ProjectPage
-                    title='zip-cortex'
+                    title=''
                     subtitle = ''
                     year=''
-                    opening='(SOON)'
+                    opening=''
                     category={``}
-                    imageCover={`${carpeta}/portada.jpg`}
-                    description={<>
-                       <p className=''>
-                           
-                        </p>
-                        <br />
-                        <p>
-                           
-                        </p>
-                    </>}
+                    imageCover=''
+                    description=''
                     credits=''
-                    videoYoutube=
+                    videoYoutube=''
                     imagenes={images.map((image) => (
                         <ImageGallery
                             image={`${carpeta}/${image}`}
