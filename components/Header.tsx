@@ -50,7 +50,7 @@ export const Header = () => {
             </a>
           </Link>
 
-          <Link href="mailto:contact@onixperience.io"
+          <Link href="/contact"
           >
             <a >
               contact

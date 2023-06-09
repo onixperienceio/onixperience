@@ -16,7 +16,7 @@ const Contact: NextPage = () => {
             </Head>
             <main className="">
                 <div className="flex flex-col flex-wrap items-center">
-                    <div className="text-left lg:w-[40%] sm:w-[60%] w-[85%] p-10 bg-background2 drop-shadow-md rounded-xl">
+                    <div className="text-left lg:w-[40%] sm:w-[60%] w-[85%] p-10 bg-background2 drop-shadow-sm rounded-xl">
                         <p className='font-display text-xl text-shadow'>
                             Victoria Momeño - Onix
                         </p>
