@@ -28,15 +28,15 @@ const ZipCortex: NextPage = () => {
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
                        <p className=''>
-                            A transmedial narrative in progress that includes an Immersive Installation, a Series, a Video Game and a Conference.
+                           
                         </p>
                         <br />
                         <p>
-                            In a context of climate collapse, the company Heiex wants to upgrade its neuronal implant Zip-Cortex to give the users a happier existence. To this end, Amaya, a Latin American woman who survived the fire on her land, is taken to a brain experiment to recodify her traumatic memory and turn it into a positive experience. But she resists the removal of her trauma. 
+                           
                         </p>
                     </>}
                     credits=''
-                    videoYoutube='https://www.youtube.com/embed/5PAZo7qTS-Q'
+                    videoYoutube=
                     imagenes={images.map((image) => (
                         <ImageGallery
                             image={`${carpeta}/${image}`}
