@@ -8,17 +8,29 @@ import Image from 'next/image'
 const Contact: NextPage = () => {
 
     return (
-        <div className='flex flex-col justify-around h-screen min-h-screen un001'>
+        <div className='flex flex-col justify-around h-screen min-h-screen'>
             <Head>
             <title>ONIX</title>
             <meta name="description" content="ONIX" />
             <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className="">
-                <div className="flex flex-col flex-wrap items-center md:text-base text-sm">
-                    <div className="text-left w-[70%] md:w-[70%] p-3">
-                        <p className=''>
-                            Contact
+                <div className="flex flex-col flex-wrap items-center">
+                    <div className="text-left lg:w-[40%] sm:w-[60%] w-[85%] p-10 bg-background2 drop-shadow-md rounded-xl">
+                        <p className='font-display text-xl text-shadow'>
+                            Victoria Momeño - Onix
+                        </p>
+                        <br />
+                        <p>
+                            contact@onixperience.io
+                        </p>
+                        <p>
+                            +49 1575 0889802
+                        </p>
+                        <br />
+                        <p className='text-sm'>
+                            <a href="https://www.instagram.com/onixperience/ ">instagram</a>&nbsp;|&nbsp;
+                            <a href="https://www.linkedin.com/in/victoria-momeno/ ">linkedin</a>&nbsp;
                         </p>
                     </div>
                 </div>

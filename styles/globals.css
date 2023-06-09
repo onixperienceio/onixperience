@@ -22,7 +22,7 @@
 body,
 body[data-theme="light"] {
   --main-color: rgb(9, 9, 9);
-  --bg-color: rgba(244,241,230,1);
+  --bg-color: #f4f1e6;
   --bg-color2: rgba(255,255,255,1);
   --bg-color3: rgba(247,247,247,1);
   --transparent: rgba(255, 255, 255, 0);

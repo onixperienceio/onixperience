@@ -13,12 +13,7 @@ export const Header = () => {
       <div className="flex justify-between mx-3 px-1 py-4 border-b">
         <div className="flex flex-col"> 
           <div className="block">
-            <a href="">
-              ig
-            </a>&nbsp;
-            <a href="">
-              ln
-            </a>
+            ~
           </div> 
           <br />
           <Link href="/performances"
