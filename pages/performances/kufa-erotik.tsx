@@ -32,7 +32,6 @@ const Performance: NextPage = () => {
                     description={<>
                         An invitation to have dinner and watch short post-porn films. But the dinner doesn&apos;t happen normally, suddenly three people start practicing BDSM and two of them will have to lend their bodies as a banquet. The dom serves vegan sushi. The audience will eat only when he rings the bell. An erotic game, between submission, rebellion and deepness.<br />
                         <br />
-                        <a href="https://vimeo.com/695692581" className='text-sm font-italic'>Watch teaser on Vimeo</a>
                     </>}
                     credits={<>
                         PRODUCED BY CC_LAB Collective<br />
@@ -52,7 +51,7 @@ const Performance: NextPage = () => {
                         <p className='font-italic'>CC_LAB Collective is a multidisciplinary and performative experimental laboratory based in Berlin, which researches and produces about desire and posthumanism. In search of the political character of the body and desire, it articulates questions about how to expand the limits, meanings and forms of eroticism and sexual desire in a society educated with mainstream porn and in a city where fetishism is on the commercial agenda.</p>
 
                     </>}
-                    videoYoutube=''
+                    videoYoutube='https://player.vimeo.com/video/695692581?h=0a9a868f28'
                     imagenes={images.map((image) => (
                         <ImageGallery
                             image={`${category}/${carpeta}/${image}`}

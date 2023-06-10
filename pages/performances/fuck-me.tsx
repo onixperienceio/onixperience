@@ -34,9 +34,6 @@ const Performance: NextPage = () => {
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
                        &#34;I always imagined myself at the center of the scene, as a heroine, taking revenge for everything. But my body wasn&apos;t enough for such a battle. Today I leave my place to the interpreters. I&apos;m going to watch how they lend their bodies to my narcissistic cause&#34;. Marina Otero intends to build an endless work about her life. FUCK ME is the third part of a series that explores the passage of time and the marks that a body holds.
-                       <br />
-                       <br />
-                       <a href="https://vimeo.com/667927179" className='text-sm font-italic'>Watch trailer on Vimeo</a>
                     </>}
                     credits={<>
                         DRAMATURGY AND DIRECTION BY Marina Otero<br />
@@ -65,7 +62,7 @@ const Performance: NextPage = () => {
                             key={credit[1]}/>
                         ))}
                     </>}
-                    videoYoutube=''
+                    videoYoutube='https://player.vimeo.com/video/667927179?h=84a64146ea'
                     imagenes={images.map((image) => (
                             <ImageGallery
                                 image={`${category}/${carpeta}/${image}`}
