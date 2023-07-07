@@ -21,17 +21,17 @@ const Bio: NextPage = () => {
                     
                     <div className="">
                         <p>
-                            Victoria Momeño- ONIX- is a Berlin-based transmedia storyteller, performer, educator and doctor.
+                            Victoria Momeño- ONIX- is an actress, singer and writer born in Argentina and based in Berlin.
                         </p>
                         <br />
                         <p>
-                            Her works explore the intersections between memory and presence, perception and ritual, and the momentary nature of existence.
+                           Specialized in transmedia storytelling, she has written and acted in theatre and film productions exhibited in national and international festivals. Her works explore the intersections between perception and reality, memory, and presence. 
                         </p>
                         <p>
-                            Informed by a combination of influences ranging from her work as a clinical investigator on cognition & catatonia, as pharmacology & theater teacher, as ayurvedic therapist to collaborations with choreographers, digital artists, climate activists and performers, she pulls themes around the latest scientific evidence bringing science and technology to the artistic agenda to question our relationship with the world and the tendency to a programmed era.
+                            Informed by a combination of influences ranging from her work as a medical doctor, pharmacology and theater teacher, to collaborations with digital artists and climate activists, she brings science and technology to the artistic agenda to question our relationship with the world. 
                         </p>
                         <p>
-                            She works in multiple mediums as an intermedial artist, performer, director, writer, and filmmaker. Her work has been shown in festivals and exhibitions nationally and internationally.
+                            In Berlin, she worked as the creative director for Orakel33 Production, as a theater teacher for GOXAM, and she co-founded the collectives Chaos Uranus and CC_LAB. She is now writing a Series and recording her first EP.
                         </p>
                         <br />
                         <p>                           
