@@ -38,7 +38,7 @@ const Film: NextPage = () => {
             </Head>
             <main className="">
                 <ProjectPage
-                    title='the undesirable'
+                    title='Undesirable'
                     subtitle='short film'
                     year={`2021`}
                     opening=''
@@ -55,7 +55,7 @@ const Film: NextPage = () => {
                             key={credit[1]}/>
                         ))} 
                     </>}
-                    videoYoutube='https://www.youtube.com/embed/yPAgKpak1Dg'
+                    videoYoutube=''
                     imagenes={images.map((image) => (
                         <ImageGallery
                             image={`${category}/${carpeta}/${image}`}
