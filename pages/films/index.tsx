@@ -35,7 +35,7 @@ const Films: NextPage = () => {
                     </a></Link>
                     <Link href="films/the-undesirable"><a >
                         <ProjectPreview
-                            title='The Undesirable'
+                            title='Undesirable'
                             category='film'
                             year='2021'
                             image='indeseables/portada.jpg'
