@@ -23,10 +23,11 @@ const Performance: NextPage = () => {
             </Head>
             <main className="">
                 <ProjectPage
-                    title='TRANCE4MATION 94.2 FTM Radio'
+                    title='CHAOS URANUS'
                     subtitle = 'performance'
                     year={`2022-23`}
                     opening={<>
+                        2024 Tristeza / Berlin, Germany <br/>
                         2023 Unboxing Pleasures Festival. Burgtheater / Lingen, Germany <br/>
                         2022 Fusion Festival. Kulturkosmos / Berlin, Germany<br/>
                         2022 At.Tension International Theater Festival. Kulturkosmos / Berlin, Germany
@@ -34,7 +35,16 @@ const Performance: NextPage = () => {
                     category={category}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
-                        Tune into this Drag-King-Quing and Queen-Show for ears, eyes and brain waves! Let this Visual Radio take you off the binary lane into fluid frequencies with dance, lipsync, comedy and rave. Zap through sex-positivity, light-show and pop-culture, slightly confused but always straight into the Hertzzz.
+                       A Drag-King-Quing and Queen-Show that take you off the binary lane into fluid frequencies with dance, lipsync, pop-culture and rave.<br/>
+                       Chaos Uranus is an open, free and horizontal collectivity of transdisciplinary performative practices.<br/>
+                       It arises from the necessity of carrying the revolutionary struggle against capitalist oppression into that territory where the oppression is most
+                       deeply rooted: the living body. We explore how to travel into this boundaryless territory, we practice to live in the flux of desires that lie beyond
+                       sexuality, beyond the domain of the repertories of normality. We feel the vital need to act as a group in liberating ourselves from those forces
+                       that have crushed and controlled desire, gender, and identity, in each of us. What we experience in our intimate life, we try to approach, explore,
+                       and question collectively. We want to unblock our bodies, feel them as a whole again, experience all their dimensions, energies, desires and
+                       intensities.<br/>
+                       We are Chaos Uranus, a mixture between the global south and the global north who came together to impulse affective hybrid knowledge from
+                       love and trust. 
                     </>}
                     credits={<>
                     PRODUCED BY CHAOS URANUS<br />
@@ -49,7 +59,7 @@ const Performance: NextPage = () => {
                             key={credit[1]}/>
                         ))}
                     
-                    <p className='font-italic'>Chaos Uranus is a Berlin based collectivity of transdisciplinary performative practices. A mix between the global north and south that joined together to promote shows that question gender and migrant identity.</p>
+                    <p className='font-italic'>Chaos Uranus is a Berlin based collectivity of transdisciplinary performative practices. A mix between the global north and south that joined together to question gender and migrant identity.</p>
                     </>}
                     videoYoutube='https://www.youtube.com/embed/rZ6sxMMMuak'
                     imagenes={images.map((image) => (
