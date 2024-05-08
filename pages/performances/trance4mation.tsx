@@ -48,7 +48,7 @@ const Performance: NextPage = () => {
                     </>}
                     credits={<>
                     PRODUCED BY CHAOS URANUS<br />
-                    PERFORMED BY ONIX- Victoria Momeño, Blumen Salas, Kï Lane, Cynna Moon, Switch, Lokke Wurm, Julx, Elmer, Sugar PA, <br />
+                    PERFORMED BY ONIX- Victoria Momeño, Kï Lane, Cynna Moon, Switch, Blumen Salas, Lokke Wurm, Julx, Elmer, Sugar PA, <br />
                     ASSISTANCE BY Martax<br />
                     TECHNICAL ASSISTANCE BY Leo <br /><br />
 
