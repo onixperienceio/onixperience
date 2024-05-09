@@ -45,7 +45,7 @@ const Film: NextPage = () => {
                     category={category}
                     imageCover={`/${carpeta}/portada.jpg`}
                     description={<>
-                        How deep is what you desire? How deep is what you long for? To see the woman of your dreams dancing the 60s swing with a knife in her hand, maybe that&apos;s paradise
+                        A man has been tied up for days. Today he&apos;s not alone, it&apos;s Wednesday. His wounds, dimly visible in the faint light, serve as a painful reminder that he is still alive. How deep can desires drill? Seeing the woman of your dreams swing to a 60s beat, knife in hand—perhaps this is what paradise looks like.
                     </>}
                     credits={<>
                         {creditos.map((credit) => (
