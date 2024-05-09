@@ -55,7 +55,7 @@ const Film: NextPage = () => {
                             key={credit[1]}/>
                         ))} 
                     </>}
-                    videoYoutube=
+                    videoYoutube=''
                     imagenes={images.map((image) => (
                         <ImageGallery
                             image={`${category}/${carpeta}/${image}`}
