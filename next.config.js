@@ -6,9 +6,11 @@ const nextConfig = {
   //   unoptimized: true
   // },
   async redirects() {
-    return [
-      {
-        source: '/',
+      // {
+      //   source: '/',
+      //   destination: '/performances',
+      //   permanent: true,
+      // },
         destination: '/performances',
         permanent: true,
       },
