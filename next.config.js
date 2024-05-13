@@ -6,14 +6,12 @@ const nextConfig = {
   //   unoptimized: true
   // },
   async redirects() {
+    return [
       // {
       //   source: '/',
       //   destination: '/performances',
       //   permanent: true,
       // },
-        destination: '/performances',
-        permanent: true,
-      },
       {
         source: '/projects',
         destination: '/performances',
@@ -25,3 +23,4 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
