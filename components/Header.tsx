@@ -51,6 +51,8 @@ export const Header = () => {
 };
   );
 };
+  );
+};
           <Link href="/contact"
           >
             <a >
