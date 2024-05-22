@@ -8,57 +8,51 @@ export const Header = () => {
   const router = useRouter();
 
   return (
-    <div className=" z-20 fixed top-0 left-0 right-0  backdrop-blur-md menu uppercase  text-xs">
-
+    <div className="z-20 fixed top-0 left-0 right-0 backdrop-blur-md menu uppercase text-xs">
       <div className="flex justify-between mx-3 px-1 py-4 border-b">
-        <div className="flex flex-col"> 
+        <div className="flex flex-col">
           <div className="block">
             ~
-          </div> 
+          </div>
           <br />
-          <Link href="/performances"
-          >
+          <Link href="/performances">
             <a className={router.pathname == "/performances" ? "active" : "" + router.pathname == "/films" ? "active" : "" + router.pathname == "/zip-cortex" ? "active" : "" + router.pathname == "/publications" ? "active" : ""}>
               projects
             </a>
           </Link>
-          
-          <Link href="/workshops"
-          >
+
+          <Link href="/workshops">
             <a className={router.pathname == "/workshops" ? "active" : ""}>
               workshops
             </a>
           </Link>
         </div>
         <p className="font-display sm:text-4xl text-3xl sm:pt-2 pt-3 blur-[2px]">
-          <Link href="/performances">
+          <Link href="/">
             <a>
               {/* <img className="max-h-[5em]" src="/logo1.png" alt="" /> */}
               onix
             </a>
-            </Link>
+          </Link>
         </p>
         <div className="flex flex-col text-right">
           <div>
              &nbsp;<ThemeToggle />
           </div>
           <br />
-          <Link href="/bio"
-          >
+          <Link href="/bio">
             <a className={router.pathname == "/bio" ? "active" : ""}>
               biography
             </a>
           </Link>
 
-          <Link href="/contact"
-          >
-            <a >
+          <Link href="/contact">
+            <a>
               contact
             </a>
           </Link>
         </div>
       </div>
-      
     </div>
   )
 
