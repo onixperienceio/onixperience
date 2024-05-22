@@ -13,12 +13,17 @@ export const Header = () => {
           <div className="block">~</div>
           <br />
           <Link href="/performances">
-            <a className={router.pathname == "/performances" ? "active" : "" + router.pathname == "/films" ? "active" : "" + router.pathname == "/zip-cortex" ? "active" : "" + router.pathname == "/publications" ? "active" : ""}>
+            <a className={
+              router.pathname === "/performances" || 
+              router.pathname === "/films" || 
+              router.pathname === "/zip-cortex" || 
+              router.pathname === "/publications" ? "active" : ""
+            }>
               projects
             </a>
           </Link>
           <Link href="/workshops">
-            <a className={router.pathname == "/workshops" ? "active" : ""}>
+            <a className={router.pathname === "/workshops" ? "active" : ""}>
               workshops
             </a>
           </Link>
@@ -32,7 +37,7 @@ export const Header = () => {
           <div>&nbsp;<ThemeToggle /></div>
           <br />
           <Link href="/bio">
-            <a className={router.pathname == "/bio" ? "active" : ""}>
+            <a className={router.pathname === "/bio" ? "active" : ""}>
               biography
             </a>
           </Link>
@@ -44,9 +49,6 @@ export const Header = () => {
     </div>
   );
 };
-            </a>
-          </Link>
-
           <Link href="/contact"
           >
             <a >
