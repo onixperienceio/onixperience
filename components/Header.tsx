@@ -31,7 +31,7 @@ export const Header = () => {
           </Link>
         </div>
         <p className="font-display sm:text-4xl text-3xl sm:pt-2 pt-3 blur-[2px]">
-          <Link href="/performances">
+          <Link href="/">
             <a>
               {/* <img className="max-h-[5em]" src="/logo1.png" alt="" /> */}
               onix
@@ -47,6 +47,22 @@ export const Header = () => {
           >
             <a className={router.pathname == "/bio" ? "active" : ""}>
               biography
+            </a>
+          </Link>
+
+          <Link href="/contact"
+          >
+            <a >
+              contact
+            </a>
+          </Link>
+        </div>
+      </div>
+      
+    </div>
+  )
+
+};
             </a>
           </Link>
 
