@@ -14,10 +14,10 @@ export const Header = () => {
           <br />
           <Link href="/performances">
             <a className={
-              router.pathname === "/performances" || 
+              (router.pathname === "/performances" || 
               router.pathname === "/films" || 
               router.pathname === "/zip-cortex" || 
-              router.pathname === "/publications" ? "active" : ""
+              router.pathname === "/publications") ? "active" : ""
             }>
               projects
             </a>
@@ -47,6 +47,8 @@ export const Header = () => {
         </div>
       </div>
     </div>
+  );
+};
   );
 };
           <Link href="/contact"
