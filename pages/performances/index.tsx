@@ -21,29 +21,29 @@ const Performances: NextPage = () => {
     const performances = [
         {
             href: "performances/trance4mation",
-            title: 'TRANCE4MATION 94.2 FTM Radio',
-            category: 'performance',
+            title: 'Chaos Uranus',
+            category: 'Drag performance',
             year: '2022-23',
             image: 'trance4mation/portada.jpg'
         },
         {
             href: "performances/hybrid-pleasures",
-            title: 'HYBRID PLEASURES',
-            category: 'performance',
+            title: 'CC_LAB',
+            category: 'Sonic Performance',
             year: '2022',
             image: 'hybrid-pleasures/portada.jpg'
         },
         {
             href: "performances/reddish-foam",
             title: 'REDDISH FOAM',
-            category: 'performance',
+            category: 'Performance',
             year: '2021',
             image: 'reddish-foam/portada.jpg'
         },
         {
             href: "performances/fuck-me",
             title: 'FUCK ME',
-            category: 'performance',
+            category: 'Performance',
             year: '2020',
             image: 'fuckme/portada.jpg'
         },
@@ -57,14 +57,14 @@ const Performances: NextPage = () => {
         {
             href: "performances/optical-instrument",
             title: 'OPTICAL INSTRUMENT',
-            category: 'performance',
+            category: 'Sonic Performance',
             year: '2019',
             image: 'io/portada.jpg'
         },
         {
             href: "performances/hold-for-three",
             title: 'HOLD FOR THREE',
-            category: 'performance',
+            category: 'Sonic Performance',
             year: '2023',
             image: 'hold-for-three/portada.jpg'
         }
