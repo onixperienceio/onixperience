@@ -60,6 +60,13 @@ const Performances: NextPage = () => {
             category: 'performance',
             year: '2019',
             image: 'io/portada.jpg'
+        },
+        {
+            href: "performances/hold-for-three",
+            title: 'HOLD FOR THREE',
+            category: 'performance',
+            year: '2023',
+            image: 'hold-for-three/portada.jpg'
         }
     ];
 
@@ -92,4 +99,5 @@ const Performances: NextPage = () => {
 }
 
 export default Performances
+
 
