@@ -5,8 +5,63 @@ import Image from 'next/image'
 import { ProjectsHeader } from '../../components/ProjectsHeader'
 import { ProjectPreview } from '../../components/ProjectPreview'
 
-
 const Performances: NextPage = () => {
+
+    const hiddenPerformances = [
+        "if-you-love-me-love-me-trans",
+        "les-quienes",
+        "sistere",
+        "oral-transmission",
+        "on-the-hunt-of-torkjuah",
+        "kufa-erotik",
+        "transmutate",
+        "if-i-could-just-not-forget"
+    ];
+
+    const performances = [
+        {
+            href: "performances/trance4mation",
+            title: 'TRANCE4MATION 94.2 FTM Radio',
+            category: 'performance',
+            year: '2022-23',
+            image: 'trance4mation/portada.jpg'
+        },
+        {
+            href: "performances/hybrid-pleasures",
+            title: 'HYBRID PLEASURES',
+            category: 'performance',
+            year: '2022',
+            image: 'hybrid-pleasures/portada.jpg'
+        },
+        {
+            href: "performances/reddish-foam",
+            title: 'REDDISH FOAM',
+            category: 'performance',
+            year: '2021',
+            image: 'reddish-foam/portada.jpg'
+        },
+        {
+            href: "performances/fuck-me",
+            title: 'FUCK ME',
+            category: 'performance',
+            year: '2020',
+            image: 'fuckme/portada.jpg'
+        },
+        {
+            href: "performances/how-can-i-desire-this-so-hard",
+            title: 'HOW CAN I DESIRE THIS SO HARD',
+            category: 'performance',
+            year: '2019',
+            image: 'desire-this/portada.jpg'
+        },
+        {
+            href: "performances/optical-instrument",
+            title: 'OPTICAL INSTRUMENT',
+            category: 'performance',
+            year: '2019',
+            image: 'io/portada.jpg'
+        }
+    ];
 
     return (
         <div className=''>
@@ -18,119 +73,18 @@ const Performances: NextPage = () => {
             <main className="projects-container">
                 <ProjectsHeader/>
                 <div className='projects'>
-                    <Link href="performances/trance4mation"><a >
-                        <ProjectPreview
-                            title='TRANCE4MATION 94.2 FTM Radio'
-                            category='performance'
-                            year='2022-23'
-                            image='trance4mation/portada.jpg'
-                        />
-                    </a></Link>
-                    <Link href="performances/hybrid-pleasures"><a >
-                        <ProjectPreview
-                            title='HYBRID PLEASURES'
-                            category='performance'
-                            year='2022'
-                            image='hybrid-pleasures/portada.jpg'
-                        />
-                    </a></Link>
-                    <Link href="performances/kufa-erotik"><a >
-                        <ProjectPreview
-                            title='KUFA EROTIK'
-                            category='performance'
-                            year='2021'
-                            image='kufa-erotik/portada.jpg'
-                            />
-                    </a></Link>
-                    <Link href="performances/reddish-foam"><a >
-                        <ProjectPreview
-                            title='REDDISH FOAM'
-                            category='performance'
-                            year='2021'
-                            image='reddish-foam/portada.jpg'
-                        />
-                    </a></Link>
-                    <Link href="performances/transmutate"><a>
-                        <ProjectPreview
-                            title='TRANSMUTATE'
-                            category='performance'
-                            year='2019'
-                            image='transmutar/portada.jpg'
-                        />
-                    </a></Link>
-                    <Link href="performances/if-i-could-just-not-forget"><a>
-                        <ProjectPreview
-                            title='IF I COULD JUST 
-                            NOT FORGET'
-                            category='performance'
-                            year='2018-19'
-                            image='not-forget/portada.jpg'
-                        />  
-                    </a></Link>
-                    <Link href="performances/if-you-love-me-love-me-trans"><a>
-                        <ProjectPreview
-                            title='IF YOU LOVE ME LOVE ME TRANS'
-                            category='performance'
-                            year='2018-19'
-                            image='loveme-trans/portada.jpg'
-                        />
-                    </a></Link>
-                    <Link href="performances/les-quienes"><a>
-                        <ProjectPreview
-                            title='LES QUIENES'
-                            category='performance'
-                            year='2019'
-                            image='les-quienes/portada.JPG'
-                        />
-                    </a></Link>
-                    <Link href="performances/sistere"><a>
-                        <ProjectPreview
-                            title='SISTERE'
-                            category='performance'
-                            year='2020'
-                            image='sistere/portada.jpg'
-                        />
-                    </a></Link>
-                    <Link href="performances/oral-transmission"><a>
-                        <ProjectPreview
-                            title='ORAL TRANSMISSION'
-                            category='performance'
-                            year='2020'
-                            image='transmision-oral/portada.jpg'
-                        />
-                    </a></Link>
-                    <Link href="performances/how-can-i-desire-this-so-hard"><a>
-                        <ProjectPreview
-                            title='HOW CAN I DESIRE THIS SO HARD'
-                            category='performance'
-                            year='2019'
-                            image='desire-this/portada.jpg'
-                        />
-                    </a></Link>
-                    <Link href="performances/optical-instrument"><a>
-                        <ProjectPreview
-                            title='OPTICAL INSTRUMENT'
-                            category='performance'
-                            year='2019'
-                            image='io/portada.jpg'
-                        />
-                    </a></Link>
-                    <Link href="performances/fuck-me"><a>
-                        <ProjectPreview
-                            title='FUCK ME'
-                            category='performance'
-                            year='2020'
-                            image='fuckme/portada.jpg'
-                        />
-                    </a></Link>
-                    <Link href="performances/on-the-hunt-of-torkjuah"><a>
-                        <ProjectPreview
-                            title='ON THE HUNT OF TORKJUAH'
-                            category='performance'
-                            year='2017'
-                            image='la-caza/portada.jpg'
-                        />
-                    </a></Link>
+                    {performances.filter(performance => !hiddenPerformances.includes(performance.href.split('/')[1])).map((performance, index) => (
+                        <Link href={performance.href} key={index}>
+                            <a>
+                                <ProjectPreview
+                                    title={performance.title}
+                                    category={performance.category}
+                                    year={performance.year}
+                                    image={performance.image}
+                                />
+                            </a>
+                        </Link>
+                    ))}
                 </div>
             </main> 
         </div>
@@ -138,3 +92,4 @@ const Performances: NextPage = () => {
 }
 
 export default Performances
+
