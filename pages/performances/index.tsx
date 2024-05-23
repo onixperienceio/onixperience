@@ -20,11 +20,25 @@ const Performances: NextPage = () => {
 
     const performances = [
         {
-            href: "performances/trance4mation",
-            title: 'TRANCE4MATION',
+            href: "performances/hold-for-three",
+            title: 'HOLD FOR THREE',
             category: 'performance',
-            year: '2022-23',
-            image: 'trance4mation/portada.jpg'
+            year: '2023',
+            image: 'hold-for-three/portada.jpg'
+        },
+         {
+            href: "performances/optical-instrument",
+            title: 'OPTICAL INSTRUMENT',
+            category: 'performance',
+            year: '2019',
+            image: 'io/portada.jpg'
+        },
+        {
+            href: "performances/fantasias-recurrentes",
+            title: 'FANTASIAS RECURRENTES',
+            category: 'performance',
+            year: '2023',
+            image: 'fantasias-recurrentes/portada.jpg'
         },
         {
             href: "performances/hybrid-pleasures",
@@ -32,6 +46,13 @@ const Performances: NextPage = () => {
             category: 'performance',
             year: '2022',
             image: 'hybrid-pleasures/portada.jpg'
+        },
+            {
+            href: "performances/fuck-me",
+            title: 'FUCK ME',
+            category: 'performance',
+            year: '2020',
+            image: 'fuckme/portada.jpg'
         },
         {
             href: "performances/reddish-foam",
@@ -41,11 +62,11 @@ const Performances: NextPage = () => {
             image: 'reddish-foam/portada.jpg'
         },
         {
-            href: "performances/fuck-me",
-            title: 'FUCK ME',
+            href: "performances/trance4mation",
+            title: 'TRANCE4MATION',
             category: 'performance',
-            year: '2020',
-            image: 'fuckme/portada.jpg'
+            year: '2022-23',
+            image: 'trance4mation/portada.jpg'
         },
         {
             href: "performances/how-can-i-desire-this-so-hard",
@@ -53,21 +74,8 @@ const Performances: NextPage = () => {
             category: 'performance',
             year: '2019',
             image: 'desire-this/portada.jpg'
-        },
-        {
-            href: "performances/optical-instrument",
-            title: 'OPTICAL INSTRUMENT',
-            category: 'performance',
-            year: '2019',
-            image: 'io/portada.jpg'
-        },
-        {
-            href: "performances/hold-for-three",
-            title: 'HOLD FOR THREE',
-            category: 'performance',
-            year: '2023',
-            image: 'hold-for-three/portada.jpg'
         }
+    
     ];
 
     return (
