@@ -37,7 +37,7 @@ const Performance: NextPage = () => {
           year="2023"
           opening={[
             '2023 Hošek Contemporary/ Berlin, Germany',
-            '2023 3omeheads/Berlin, Germany',
+            '2023 Sameheads/Berlin, Germany',
             '2023 Gelegenheiten/Berlin, Germany',
           ]}
           category={category}
