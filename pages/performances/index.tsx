@@ -100,4 +100,3 @@ const Performances: NextPage = () => {
 
 export default Performances
 
-
