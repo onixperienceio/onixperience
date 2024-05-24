@@ -40,15 +40,15 @@ const Performance: NextPage = () => {
                         DIRECTION BY Josefina Barreix <br />
                         MUSIC BY Jsfnbrrx , Andres Marino & Sofja<br />
                         VISUALS BY FrenetikVoid<br />
-                        PROGRAMMER Diego Dorado<br />
-                        INTERACTIVE PROPOSAL Marcos Cabobianco<br />
+                        PROGRAMATION BY Diego Dorado<br />
+                        INTERACTIVE PROPOSAL BY Marcos Cabobianco<br />
                         SCENOGRAPHY BY Carla Martens & Francisca Armando<br />
                         COSTUME DESIGN BY Moroviski and Ceiborg<br />
-                        CREATIVE COLLABORATION: ONIX- Victoria Momeño, Celeste Lambert, Guillermina Teves & Flavio Cabobianco.<br />
-                        PARTICIPATION Maria Eugenia Garcia<br />
+                        CREATIVE COLLABORATION BY ONIX- Victoria Momeño, Celeste Lambert, Guillermina Teves & Flavio Cabobianco.<br />
+                        PARTICIPATION OF Maria Eugenia Garcia<br />
                         THANKS TO Cabobianco Family, Panni Margot <br />
                         VIDEO AND EDITION BY Juan Nasra<br />
-                        EXECUTIVE PRODUCTION Jimena Serret<br />
+                        EXECUTIVE PRODUCTION BY Jimena Serret<br />
 
                         {creditos.map((credit) => (
                         <Credits
