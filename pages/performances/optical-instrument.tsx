@@ -5,7 +5,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 import { Credits } from '../../components/Credits'
 
 const Performance: NextPage = () => {
-    const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
+    const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
     const carpeta = 'io'
     const category = 'performance'
 
@@ -24,7 +24,7 @@ const Performance: NextPage = () => {
             <main className="">
                 <ProjectPage
                     title='optical instrument'
-                    subtitle = 'music Visual Performance'
+                    subtitle = 'Sonic Visual Performance'
                     year={`2019`}
                     opening={<>
                         2019 Le Vent se Leve / París, Francia <br />
