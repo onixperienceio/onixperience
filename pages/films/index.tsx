@@ -6,9 +6,8 @@ import { ProjectsHeader } from '../../components/ProjectsHeader'
 import { ProjectPreview } from '../../components/ProjectPreview'
 
 const Films: NextPage = () => {
-const Performances: NextPage = () => {
 
-    const hiddenPerformances = [
+const hiddenFilms = [
         "hybrid-pleasures",
     ];
     return (
