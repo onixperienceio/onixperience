@@ -16,6 +16,7 @@ const Performances: NextPage = () => {
         "kufa-erotik",
         "transmutate",
         "if-i-could-just-not-forget"
+        "trance4mation"
     ];
 
     const performances = [
@@ -60,13 +61,6 @@ const Performances: NextPage = () => {
             category: 'performance',
             year: '2021',
             image: 'reddish-foam/portada.jpg'
-        },
-        {
-            href: "performances/trance4mation",
-            title: 'TRANCE4MATION',
-            category: 'performance',
-            year: '2022-23',
-            image: 'trance4mation/portada.jpg'
         },
         {
             href: "performances/how-can-i-desire-this-so-hard",
