@@ -5,7 +5,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 import { Credits } from '../../components/Credits'
 
 const Performance: NextPage = () => {
-    const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg']; // Add more images as needed
+    const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg']; // Add more images as needed
     const carpeta = 'hold-for-three'
     const category = 'performance'
 
