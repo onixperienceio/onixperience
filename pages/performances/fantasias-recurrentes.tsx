@@ -6,7 +6,7 @@ import { Credits } from '../../components/Credits'
 
 const Performance: NextPage = () => {
     const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
-    const carpeta = 'desire-this'
+    const carpeta = 'fantasias-recurrentes'
     const category = 'performance'
 
     const creditos = [
@@ -23,20 +23,21 @@ const Performance: NextPage = () => {
             </Head>
             <main className="">
                 <ProjectPage
-                    title='HOW CAN I DESIRE THIS SO HARD (CPDTE)'
-                    subtitle = 'theater'
-                    year={`2019`}
+                    title='FANTASIAS RECURRENTES'
+                    subtitle = 'Sonic Performance Events'
+                    year={`2023`}
                     opening={<>2019 Laboratory of Action in the Theatrical Complex of Buenos Aires, Argentina</>}
                     category={category}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
-                        CPDTE explores what it means to become a contemporary dancer, the demands, the passion and its precipices. CPDTE transits the borders between documentary and fiction, dance and performance, accident and representation. CPDTE is a project by Miguel Valdivieso based on building a work in permanent change like life. A life lived as the work-in-progress of a work that justifies it.
+                        Recurrent Fantasies is a series of events aimed at showcasing Latin American musicians, whether they reside in Berlin or not. It serves as a platform for meeting, reflecting, and sharing Latin music and dance. Focusing on Latin rhythms such as trap, cumbia, reggaeton, RKT, and hyperpop, Recurrent Fantasies provides opportunities for both emerging and established artists. <br />
+                        This decolonial platform is not driven by economic goals but rather by the desire to bring elements of our latin musical culture to the city of Berlin.
                     </>}
                     credits={<>
-                        <span className='font-bold'>WRITTEN, DIRECTED AND PERFORMED BY</span> Miguel Valdivieso<br />
-                        <span className='font-bold'>ASSITANCE BY</span> Carolina Berg<br />
-                        <span className='font-bold'>DRAMATURGIC COLLABORATION BY</span> ONIX-Victoria Momeño<br />
-                        <span className='font-bold'>PHOTOS BY</span> Camila Buendia <br />
+                        <span className='font-bold'>PRODUCED & CURATED BY</span> ONIX-Victoria Momeño<br />
+                        <span className='font-bold'>CONCEPT BY</span> Camilo Desorden, Fermin Dublo & Victoria Momeño<br />
+                        <span className='font-bold'>ARTWORK BY</span> Maximiliano Trionfante & Gugui<br />
+                        <span className='font-bold'>THANKS TO</span> Dj Pendejo, Kayla Celrod, Kim Wichera, Luxifera & Genesis Victoria <br />
 
                         {creditos.map((credit) => (
                         <Credits
@@ -45,7 +46,7 @@ const Performance: NextPage = () => {
                             key={credit[1]}/>
                         ))}
                     </>}
-                    videoYoutube='https://www.youtube.com/embed/122h4BLQ8Qw'
+                    videoYoutube=''
                     imagenes= {images.map((image) => (
                         <ImageGallery
                         image={`${category}/${carpeta}/${image}`}
