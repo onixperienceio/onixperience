@@ -1,26 +1,19 @@
-import React from 'react';
+import type { NextPage } from 'next';
 import Head from 'next/head';
-import ProjectPage from '../../components/ProjectPage';
-import ImageGallery from '../../components/ImageGallery';
-import Credits from '../../components/Credits';
+import { ProjectPage } from '../../components/ProjectPage';
+import { ImageGallery } from '../../components/ImageGallery';
+import { Credits } from '../../components/Credits';
 
 const Performance: NextPage = () => {
-  const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
+  const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
   const carpeta = 'fantasias-recurrentes';
   const category = 'performance';
 
   const credits = [
-    'DRAMATURGY AND DIRECTION BY Marina Otero',
-    'PERFORMED BY Augusto Chiappe | Juanfra López Bubica | Fred Raposo | Matías Rebossio | Miguel Valdivieso | Cristian Vega | Marina Otero',
-    'SPACE, LIGHT AND TECHNICAL DIRECTION BY David Seldes | Facundo David',
-    'SPACE AND LIGHT DESIGN BY Adrián Grinszpan',
-    'COSTUME DESIGN BY Uriel Cistarož',
-    'ORIGINAL MUSIC BY Julián Rodríguez Rona',
-    'DRAMATURGY CONSULTANCY Martín Flores Cárdenas',
-    'DIRECTION ASSISTANCE Lucrecia Pierpaoli',
-    'CHOREOGRAPHY ASSISTANCE Lucía Giannotti',
-    'TECHNICAL ASSISTANCE ONIX- Victoria Momeño',
-    'VIDEO DESIGN Lucio Bazzalo',
+    ['PRODUCED & CURATED BY', 'ONIX- Victoria Momeño'],
+    ['CONCEPT BY', 'Camilo Desorden, Fermin Dublo & Victoria Momeño'],
+    ['ARTWORK BY', 'Maximiliano Trionfante & Gugui'],
+    ['THANKS TO', 'Dj Pendejo, Genesis Victoria, Luxifera.'],
   ];
 
   return (
@@ -30,22 +23,29 @@ const Performance: NextPage = () => {
         <meta name="description" content="ONIX" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="">
+      <main>
         <ProjectPage
           title="fantasias recurrentes"
-          subtitle="Sonic Performance"
+          subtitle="Sonic Performances"
           year="2023"
           opening={[
-            '2023 Hošek Contemporary/ Berlin, Germany',
-            '2023 Sameheads/Berlin, Germany',
-            '2023 Gelegenheiten/Berlin, Germany',
+            '2023 Wilde Möhre Festival / Berlin, Germany',
+            '2023 Hôsek Contemporary /Berlin, Germany',
+            '2023 Sameheads/ Berlin, Germany',
+            '2023 Grüni /Berlin, Germany',
           ]}
           category={category}
-          imageCover={`/images/performance/${carpeta}/portada.jpg`}
-          description="I always imagined myself at the center of the scene, as a heroine, taking revenge for everything. But my body wasn't enough for such a battle. Today I leave my place to the interpreters. I'm going to watch how they burn."
+          imageCover={`/${carpeta}/portada.jpg`}
+          description={`
+            Recurrent Fantasies is a series of events aimed at showcasing Latin American musicians, whether they reside in Berlin or not. 
+            It serves as a platform for meeting, reflecting, and sharing Latin music and dance. Focusing on Latin rhythms such as trap, cumbia, reggaeton, RKT, and hyperpop, 
+            Recurrent Fantasies provides opportunities for both emerging and established artists.
+
+            This decolonial platform is not driven by economic goals but rather by the desire to bring elements of our latin musical culture to the city of Berlin.
+          `}
           credits={credits}
         />
-        <ImageGallery images={images.map(img => `/images/performance/${carpeta}/${img}`)} />
+        <ImageGallery images={images} carpeta={carpeta} />
         <Credits credits={credits} />
       </main>
     </div>
