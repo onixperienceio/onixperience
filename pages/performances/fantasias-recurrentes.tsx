@@ -26,7 +26,12 @@ const Performance: NextPage = () => {
                     title='FANTASIAS RECURRENTES'
                     subtitle = 'Sonic Performance Events'
                     year={`2023`}
-                    opening={<>2023 Wilde Möhre Festival / Berlin, Germany </>}
+                    opening={<>
+                        2023 Wilde Möhre Festival / Berlin, Germany  <br/>
+                        2023 Hôsek Contemporary /Berlin, Germany  <br/>
+                        2022 Sameheads/ Berlin, Germany <br/>
+                        2022 Gelegenheiten / Berlin, Germany
+                    </>}
                     category={category}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
