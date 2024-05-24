@@ -28,7 +28,8 @@ const Performance: NextPage = () => {
                     year={`2022`}
                     opening={<>2022 Reiche ProjektHaus / Berlin, Germany</>}
                     category={category}
-                    imageCover={`${carpeta}/portada.jpg`}
+imageCover={`${carpeta}/portada.jpg`}
+
                     description={<>
                         An immersive and performative installation that proposes to autohack our desires and our bodies becoming cyborgs in a habitat that mutates between the organic, the inorganic and the bioelectric. A laboratory of erotic practices to deprogram us and culminate in a mutant party. What pleasures does an organic cyborg have?
                     </>}
