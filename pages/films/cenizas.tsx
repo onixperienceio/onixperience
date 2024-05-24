@@ -5,7 +5,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 import { Credits } from '../../components/Credits'
 
 const Film: NextPage = () => {
-    const images = ['1.jpg', '2.jpg', '3.jpg'];
+    const images = ['1.jpg', '3.jpg'];
     const carpeta = 'cenizas'
     const category = 'film'
 
