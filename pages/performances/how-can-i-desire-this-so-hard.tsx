@@ -36,7 +36,7 @@ const Performance: NextPage = () => {
                         <span className='font-bold'>WRITTEN, DIRECTED AND PERFORMED BY</span> Miguel Valdivieso<br />
                         <span className='font-bold'>ASSITANCE BY</span> Carolina Berg<br />
                         <span className='font-bold'>DRAMATURGIC COLLABORATION BY</span> ONIX-Victoria Momeño<br />
-                         PHOTOS BY Camila Buendia <br />
+                        <span className='font-bold'>PHOTOS BY</span> Camila Buendia <br />
 
                         {creditos.map((credit) => (
                         <Credits
