@@ -26,11 +26,12 @@ const Performance: NextPage = () => {
                     title='FANTASIAS RECURRENTES'
                     subtitle = 'Sonic Performance Events'
                     year={`2023`}
-                    opening={<>2019 Laboratory of Action in the Theatrical Complex of Buenos Aires, Argentina</>}
+                    opening={<>2023 Wilde Möhre Festival / Berlin, Germany </>}
                     category={category}
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
                         Recurrent Fantasies is a series of events aimed at showcasing Latin American musicians, whether they reside in Berlin or not. It serves as a platform for meeting, reflecting, and sharing Latin music and dance. Focusing on Latin rhythms such as trap, cumbia, reggaeton, RKT, and hyperpop, Recurrent Fantasies provides opportunities for both emerging and established artists. <br />
+                       <br />
                         This decolonial platform is not driven by economic goals but rather by the desire to bring elements of our latin musical culture to the city of Berlin.
                     </>}
                     credits={<>
