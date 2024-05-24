@@ -18,13 +18,10 @@ const Film: NextPage = () => {
         ['PHOTOGRAPHY DIRECTION BY', 'Emanuel Sarmiento'],
         ['ART DIRECTION BY', 'Victoria Carel'],
         ['GAFFER', 'Evelyn Denise Pin'],
-        ['ASSISTANCE BY', 'Paula Menga'],
-        ['COREOGRAPHY COLLABORATION BY', 'Carla Di Grazia'],
-        ['COSTUMES BY', 'Catalina di Primio'],
         ['MAKE UP BY', 'Cecilia Cristaldo'],
         ['COLOUR BY', 'Patricia Batlle'],
         ['VFX BY', 'Guido Ferraro'],
-        ['SOUND BY', 'ignacio Blanco & Gastón Ibarroule'],
+        ['SOUND BY', 'Ignacio Blanco & Gastón Ibarroule'],
         ['THANKS TO', 'Alejandro Casagrande'],
         ['PRODUCED BY', 'NEON REBELS']
     ]
