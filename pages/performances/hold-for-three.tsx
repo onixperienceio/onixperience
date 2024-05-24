@@ -53,7 +53,10 @@ const Performance: NextPage = () => {
                             key={credit[1]}/>
                         ))}
                     </>}
-                    videoYoutube='' // No video provided
+                   description={<>
+                       Hold for three questions capitalist power structures by forging a nightmarish hallucination, one where labor and productivity reign supreme. This world is infused with eroticism, a kind that is laking in care and intimacy, steered by function and violence. This erotic monstrosity is fueled by machinic desire and the performers are mere tools of some greater force for perpetual operation.<br />
+                       As the development of digital technology further entangles itself into our work and everyday lives, Hold For Three reflects on a much longer history of mechanisms which have sought to mimic human capacities, such as the form of bellows simulating the human lung. The piece counters patriarchal, tech-fetishistic music cultures in which absolute control and sleek functionality is paramount, while the body is often rendered invisible and immobile. By imagining new musical uses for outdated technology, the work questions what other possible futures emerge from the human-machine relationship. It wrestles with the narrative of technological ‘progress’ in the context of human labor.<br />
+                    <br />
                     imagenes={images.map((image) => (
                         <ImageGallery
                             image={`${category}/${carpeta}/${image}`}
