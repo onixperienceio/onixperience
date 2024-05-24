@@ -6,7 +6,11 @@ import { ProjectsHeader } from '../../components/ProjectsHeader'
 import { ProjectPreview } from '../../components/ProjectPreview'
 
 const Films: NextPage = () => {
+const Performances: NextPage = () => {
 
+    const hiddenPerformances = [
+        "hybrid-pleasures",
+    ];
     return (
         <div className=''>
             <Head>
@@ -29,16 +33,16 @@ const Films: NextPage = () => {
                         <ProjectPreview
                             title='Undesirable'
                             category='film'
-                            year='2021'
+                            year='2023'
                             image='indeseables/portada.jpg'
                             />
                     </a></Link>
-                    <Link href="/films/hybrid-pleasures"><a >
+                    <Link href="/films/cenizas"><a >
                         <ProjectPreview
-                            title='Hybrid Pleasures'
+                            title='Cenizas'
                             category='film'
-                            year='2023'
-                            image='hybrid-pleasures/portada.jpg'
+                            year='2024'
+                            image='cenizas/portada.jpg'
                             />
                     </a></Link>
                 </div>
