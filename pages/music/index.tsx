@@ -18,8 +18,9 @@ const Music: NextPage = () => {
     // si no hay creditos, podes borrar todo y dejar solo los corchetes asi:
     // const creditos = []
     const creditos = [
-        ['rol 1', 'nombre 1'],
-        ['rol 2', 'nombre 2'],
+        ['PRODUCED BY', 'Camilo Desorden'],
+        ['SONG-WRITER & VOCALS BY', 'ONIX'],
+        ['VIDEO BY', 'Max Trionfante'],
     ]
 
     return (
@@ -54,8 +55,8 @@ const Music: NextPage = () => {
                             key={credit[1]}/>
                         ))}
                         <br />
-                        <p>Aca podes agregar mas texto si queres.</p>
-                        <p className='font-italic'>Asi si queres que sea en italica</p>
+                        <p>Shows 2023: Hošek Contemporary, Wilde Möhre Festival, Sameheads, Gelegenheiten .</p>
+                        <p className='font-italic'></p>
                     </>}
                     // desde el video en youtube:
                     // share --> embed --> copiar el link que aparece en el texto que te tira ahi en src
