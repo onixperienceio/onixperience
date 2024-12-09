@@ -40,9 +40,11 @@ const Music: NextPage = () => {
                     category=''
                     imageCover={`${carpeta}/portada.jpg`}
                     description={<>
-                        Esto es un parrafo con un <span className='font-italic'>salto de linea.</span> <br />
-                        Aca otro parrafo. <br />
-                        <span className='font-bold'>Este parrafo en negrita</span>
+                       Singer-songwriter presenting a work-in-progress album, Neocity.</span> <br />
+                       An album that delves into the many sides of Berlin, a mix of hyperpop, with latin rhythms like cumbia and trap, . <br />
+                       a celebration of self and yet a journey into the visceral. These openings serve as an exploration of the deeper meanings within the songs<br />
+                       an exploration through the ritual , the sacred and the revelry , the impulsive, embracing the latin cosmovision of finding joy despite everything. <br /> 
+                        </span>
                     </>}
                     credits={<>
                         {creditos.map((credit) => (
