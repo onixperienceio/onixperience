@@ -58,10 +58,23 @@ const Music: NextPage = () => {
                     // desde el video en youtube:
                     // share --> embed --> copiar el link que aparece en el texto que te tira ahi en src
                     videoYoutube=''
-                    imagenes={images.map((image) => (
-                        <ImageGallery
-                            image={`${carpeta}/${image}`}
-                            key={image}/>
+                    imagenes={(
+                        <div className="video-container">
+                            {/* Vimeo Video Embed */}
+                            <iframe
+                                src="https://player.vimeo.com/video/944843505?h=676b3d6289&autoplay=0&muted=0&badge=0&autopause=0&player_id=0&app_id=58479"
+                                frameBorder="0"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                                style={{
+                                    width: '100%',
+                                    height: '500px',
+                                    maxWidth: '100%',
+                                    margin: '0 auto',
+                                    display: 'block',
+                                }}
+                                title="Onix Show Reel"
+                            ></iframe>
+                        </div>
                     ))}
                 />            
             </main>
