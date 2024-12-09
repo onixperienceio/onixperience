@@ -24,12 +24,12 @@ export const ProjectsHeader = () => {
           </Link>
 
           {/* para agregar un item al menu de projects */}
-          {/* <Link href="/music"
+          <Link href="/music"
           >
             <a className={router.pathname == "/music" ? "active" : ""}>
               music
             </a>
-          </Link> */}
+          </Link>
 
           <Link href="/publications"
           >
